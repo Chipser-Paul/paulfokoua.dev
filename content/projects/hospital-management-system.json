@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "hospital-management-system",
+  "slug": "hospital-management-system",
+  "title": "Hospital Management System",
+  "status": "academic",
+  "type": "enterprise",
+  "featured": true,
+  "featuredOrder": 3,
+  "published": true,
+  "shortDescription": "A Django-based hospital management information system built as academic coursework. Demonstrates role-based access, appointment scheduling, pharmacy inventory, and billing workflows.",
+  "longDescription": "A full-stack hospital management information system developed as academic coursework to replace paper-based record keeping with digital workflows. The platform covers patient registration, appointment scheduling, electronic health records, pharmacy inventory, billing, and role-based staff access. Built with Django and PostgreSQL, it emphasizes data validation, audit trails, and usability for non-technical medical staff.",
+  "problem": "The target facility relied on paper-based records and disconnected spreadsheets, leading to lost records, long patient wait times, billing errors, and inventory shortages.",
+  "solution": "Developed an integrated web platform with role-based access for doctors, nurses, pharmacists, and administrators, replacing manual processes with structured digital workflows.",
+  "architecture": "Monolithic Django backend with a modular service layer and REST API, backed by a normalized PostgreSQL schema. The frontend uses server-rendered Django templates with Bootstrap for responsive layout across desktop and mobile.",
+  "client": null,
+  "team": false,
+  "teamSize": null,
+  "startDate": "2024-01-01",
+  "endDate": "2024-06-01",
+  "techStack": [
+    "Python",
+    "Django",
+    "PostgreSQL",
+    "Bootstrap",
+    "Celery",
+    "Redis",
+    "Docker"
+  ],
+  "features": [
+    "Patient registration and electronic health records",
+    "Appointment scheduling with doctor availability tracking",
+    "Pharmacy inventory and prescription management",
+    "Automated billing and invoice generation",
+    "Role-based access control for doctors, nurses, pharmacists, and administrators",
+    "Reporting dashboard for hospital administrators"
+  ],
+  "challenges": [
+    "Migrating paper-record concepts into normalized database schemas without data loss",
+    "Designing an interface usable by non-technical medical staff with minimal training",
+    "Ensuring data validation and audit trails for sensitive health information"
+  ],
+  "lessonsLearned": [
+    "User training and workflow observation are as important as the software implementation",
+    "Healthcare software requires strict data validation and clear audit trails",
+    "Building with end-user feedback early prevents costly rework late in the project"
+  ],
+  "futureImprovements": [
+    "Mobile-optimized interfaces for on-the-go staff access",
+    "Lab results integration and automated alerts",
+    "Extended reporting and export capabilities"
+  ],
+  "github": "https://github.com/paulfokoua/hospital-management-system",
+  "liveDemo": null,
+  "images": [
+    "/images/projects/hospital-management-system/Screenshot 2025-05-19 215551.png",
+    "/images/projects/hospital-management-system/Screenshot 2025-05-19 215656.png",
+    "/images/projects/hospital-management-system/Screenshot 2025-05-19 215716.png",
+    "/images/projects/hospital-management-system/Screenshot 2025-05-19 215738.png"
+  ],
+  "lastUpdated": "2025-10-10T09:00:00+01:00"
+}

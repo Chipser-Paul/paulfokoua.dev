@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0.0",
+  "experiences": [
+    {
+      "id": "exp-001",
+      "order": 1,
+      "company": "Independent",
+      "position": "Software Engineer",
+      "location": "Douala, Cameroon",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "current": true,
+      "employmentType": "Independent",
+      "description": "Independent software engineering focused on backend systems, APIs, and developer tooling. Building and deploying practical applications while completing a B.Tech in Software Engineering.",
+      "responsibilities": [
+        "Design and implement backend services and REST APIs",
+        "Build full-stack applications using Python, Node.js, and JavaScript",
+        "Develop CLI tools and automation utilities to reduce repetitive development work",
+        "Deploy applications and manage hosting for personal and academic projects"
+      ],
+      "technologies": ["Python", "Node.js", "JavaScript", "Django", "PostgreSQL", "Docker"]
+    },
+    {
+      "id": "exp-002",
+      "order": 2,
+      "company": "VIM Solution",
+      "position": "Software Engineering Intern",
+      "location": "Douala, Cameroon",
+      "startDate": "2022-06-01",
+      "endDate": "2023-05-31",
+      "current": false,
+      "employmentType": "Internship",
+      "description": "Professional software engineering internship focused on backend development, system integration, and production deployment workflows.",
+      "responsibilities": [
+        "Developed and maintained backend services using Python and Django",
+        "Implemented authentication, payment integration, and job listing workflows",
+        "Collaborated with the engineering team on feature delivery and code reviews",
+        "Contributed to deployment and monitoring of production services"
+      ],
+      "technologies": ["Python", "Django", "PostgreSQL", "Docker", "MTN MoMo API", "Render"]
+    }
+  ]
+}

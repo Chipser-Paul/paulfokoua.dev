@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "education": [
+    {
+      "id": "edu-001",
+      "order": 1,
+      "institution": "IUGET Bonamoussadi, affiliated with University of Bamenda",
+      "degree": "B.Tech",
+      "field": "Software Engineering",
+      "startYear": 2023,
+      "endYear": null,
+      "status": "In Progress",
+      "gpa": null,
+      "achievements": [
+        "Expected graduation: December 2026"
+      ],
+      "description": "Advanced software engineering program covering backend development, databases, software architecture, and systems design."
+    },
+    {
+      "id": "edu-002",
+      "order": 2,
+      "institution": "IUGET Bonamoussadi, affiliated with University of Bamenda",
+      "degree": "HND",
+      "field": "Software Engineering",
+      "startYear": 2021,
+      "endYear": 2023,
+      "status": "Completed",
+      "gpa": null,
+      "achievements": [],
+      "description": "Higher National Diploma in Software Engineering with focus on programming fundamentals, database systems, and web technologies."
+    }
+  ]
+}

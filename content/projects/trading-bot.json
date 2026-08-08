@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "trading-bot",
+  "slug": "trading-bot",
+  "title": "Algorithmic Trading Bot",
+  "status": "experimental",
+  "type": "tool",
+  "featured": true,
+  "featuredOrder": 2,
+  "published": true,
+  "shortDescription": "A modular Python algorithmic trading research system built around MetaTrader 5. B.Tech capstone project exploring market-structure analysis, liquidity, confluence scoring, and automated risk management.",
+  "longDescription": "A Python-based algorithmic trading research system built around the MetaTrader 5 platform. The project is structured as a modular pipeline for market-data processing, trade signal generation, risk management, and structured logging. It was developed as a B.Tech capstone project to investigate market-structure concepts such as fair-value gaps, liquidity analysis, and confluence scoring, with an emphasis on engineering rigor, diagnostics, and hypothesis-driven experimentation rather than live profitability. Currently focused on XAUUSDm, with BTCUSDm support implemented and maintained as a secondary instrument on standby.",
+  "problem": "Retail traders and researchers often lack transparent, well-structured tooling for testing trading hypotheses with proper risk controls and systematic logging. Existing solutions tend to obscure decision logic or lack the instrumentation needed to debug and iterate on strategy behavior.",
+  "solution": "Developed a modular Python system that automates market-data ingestion, signal evaluation, risk management, and trade logging within MetaTrader 5. The architecture separates concerns into discrete modules so individual hypotheses—such as fair-value-gap detection or session-based filtering—can be tested, instrumented, and compared without coupling to a monolithic script.",
+  "architecture": "Modular Python application organized around a central orchestrator with separate modules for market-data processing, market-structure analysis, risk management, and structured logging. MetaTrader 5 serves as the execution and data-feed environment, while PostgreSQL persists trade records and diagnostic outputs for offline analysis.",
+  "client": null,
+  "team": false,
+  "teamSize": null,
+  "startDate": "2025-01-01",
+  "endDate": null,
+  "techStack": [
+    "Python",
+    "MetaTrader 5",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "features": [
+    "Modular signal and market-structure analysis pipeline",
+    "Liquidity and fair-value-gap detection",
+    "Confluence scoring and session/news filtering",
+    "Volatility-adaptive stop-loss and partial-close logic",
+    "Structured trade logging and diagnostic tooling",
+    "PostgreSQL persistence for trade history and analytics"
+  ],
+  "challenges": [
+    "Translating discretionary trading concepts into deterministic, testable modules",
+    "Managing state and position tracking across MetaTrader 5 bar events",
+    "Designing logging and diagnostics that reveal discrepancies between expected and observed behavior"
+  ],
+  "lessonsLearned": [
+    "Modular architecture makes it possible to isolate and test individual strategy components",
+    "Structured logging is as important as the trading logic for understanding system behavior",
+    "Risk management and debugging infrastructure deserve as much design attention as signal generation"
+  ],
+  "futureImprovements": [
+    "Expanded instrument coverage and multi-timeframe analysis",
+    "Automated performance reporting and hypothesis tracking",
+    "Visualization dashboard for strategy diagnostics"
+  ],
+  "github": "https://github.com/paulfokoua/trading-bot",
+  "liveDemo": null,
+  "images": [
+    "/images/projects/trading-bot/dashboard.png",
+    "/images/projects/trading-bot/Strategy.png",
+    "/images/projects/trading-bot/Settings.png",
+    "/images/projects/trading-bot/AI Copilot.png"
+  ],
+  "lastUpdated": "2026-02-20T14:00:00+01:00",
+  "capstone": true
+}

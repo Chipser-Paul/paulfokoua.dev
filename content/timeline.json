@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "events": [
+    {
+      "id": "evt-001",
+      "order": 1,
+      "date": "2026-08-01",
+      "title": "Launched portfolio website",
+      "description": "Began building a professional portfolio website to showcase engineering work and technical writing.",
+      "category": "project",
+      "sourceType": "profile",
+      "sourceId": "profile"
+    },
+    {
+      "id": "evt-002",
+      "order": 2,
+      "date": "2025-12-15",
+      "title": "Published Trading Bot open-source release",
+      "description": "Released a modular Python algorithmic trading research system built around MetaTrader 5 as a B.Tech capstone project.",
+      "category": "project",
+      "sourceType": "project",
+      "sourceId": "trading-bot"
+    },
+    {
+      "id": "evt-003",
+      "order": 3,
+      "date": "2024-06-01",
+      "title": "Completed Hospital Management System",
+      "description": "Delivered a Django-based hospital management information system as academic coursework.",
+      "category": "project",
+      "sourceType": "project",
+      "sourceId": "hospital-management-system"
+    },
+    {
+      "id": "evt-004",
+      "order": 4,
+      "date": "2023-01-01",
+      "title": "Started independent software engineering",
+      "description": "Transitioned to independent project development to focus on backend systems, APIs, and developer tooling.",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-001"
+    },
+    {
+      "id": "evt-005",
+      "order": 5,
+      "date": "2022-06-01",
+      "title": "Joined VIM Solution as Software Engineering Intern",
+      "description": "Began professional software engineering internship focused on backend development and production deployment.",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-002"
+    },
+    {
+      "id": "evt-006",
+      "order": 6,
+      "date": "2023-07-01",
+      "title": "Completed HND in Software Engineering",
+      "description": "Completed Higher National Diploma in Software Engineering at IUGET Bonamoussadi.",
+      "category": "education",
+      "sourceType": "education",
+      "sourceId": "edu-002"
+    },
+    {
+      "id": "evt-007",
+      "order": 7,
+      "date": "2023-09-01",
+      "title": "Started B.Tech in Software Engineering",
+      "description": "Began Bachelor of Technology in Software Engineering at IUGET Bonamoussadi, affiliated with University of Bamenda. Expected graduation: December 2026.",
+      "category": "education",
+      "sourceType": "education",
+      "sourceId": "edu-001"
+    },
+    {
+      "id": "evt-008",
+      "order": 8,
+      "date": "2021-09-01",
+      "title": "Enrolled at IUGET Bonamoussadi",
+      "description": "Began Higher National Diploma in Software Engineering at IUGET Bonamoussadi, affiliated with University of Bamenda.",
+      "category": "education",
+      "sourceType": "education",
+      "sourceId": "edu-002"
+    }
+  ]
+}
