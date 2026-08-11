@@ -2,7 +2,6 @@
   "schemaVersion": "1.0.0",
   "backend": [
     { "name": "Python", "level": "Advanced", "years": 3, "category": "backend" },
-    { "name": "Node.js", "level": "Advanced", "years": 3, "category": "backend" },
     { "name": "Java", "level": "Intermediate", "years": 2, "category": "backend" },
     { "name": "PHP", "level": "Intermediate", "years": 2, "category": "backend" }
   ],

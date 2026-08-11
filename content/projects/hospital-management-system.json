@@ -4,7 +4,7 @@
   "slug": "hospital-management-system",
   "title": "Hospital Management System",
   "status": "academic",
-  "type": "enterprise",
+  "type": "academic",
   "featured": true,
   "featuredOrder": 3,
   "published": true,
@@ -50,7 +50,7 @@
     "Lab results integration and automated alerts",
     "Extended reporting and export capabilities"
   ],
-  "github": "https://github.com/paulfokoua/hospital-management-system",
+  "github": null,
   "liveDemo": null,
   "images": [
     "/images/projects/hospital-management-system/Screenshot 2025-05-19 215551.png",

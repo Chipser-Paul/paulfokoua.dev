@@ -19,7 +19,7 @@ export function Hero() {
           </div>
 
           <p className="text-base md:text-lg text-text-secondary leading-relaxed max-w-xl">
-            I build practical web applications, APIs, and developer tools using Python, Node.js, and JavaScript.
+            I build practical web applications, APIs, and developer tools using Python and JavaScript.
             Focused on clean architecture, performance, and delivering real-world solutions.
           </p>
 
@@ -70,7 +70,7 @@ export function Hero() {
                   <p><span className="text-primary">const</span> engineer = {'{'}</p>
                    <p className="pl-4">name: <span className="text-success">&quot;FOKOUA PAUL&quot;</span>,</p>
                   <p className="pl-4">focus: <span className="text-success">&quot;backend&quot;</span>,</p>
-                  <p className="pl-4">stack: [<span className="text-success">&quot;Python&quot;</span>, <span className="text-success">&quot;Node.js&quot;</span>],</p>
+                   <p className="pl-4">stack: [<span className="text-success">&quot;Python&quot;</span>, <span className="text-success">&quot;JavaScript&quot;</span>],</p>
                   <p className="pl-4">status: <span className="text-success">&quot;building&quot;</span></p>
                   <p>{'}'};</p>
                 </div>
