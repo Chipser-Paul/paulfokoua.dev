@@ -66,7 +66,7 @@ Once provided, it can be integrated into the resume page.
 | URL | Status | Notes |
 |-----|--------|-------|
 | `https://github.com/Chipser-Paul` | UNVERIFIED | User-confirmed, but not externally verified |
-| `https://linkedin.com/in/paulfokoua` | UNVERIFIED | User-confirmed, but not externally verified |
+| `https://www.linkedin.com/in/fokoua-paul-emmanuel-402559307` | UNVERIFIED | User-confirmed, but not externally verified |
 | `https://paulfokoua.dev` | VERIFIED | Canonical domain |
 | `https://github.com/paulfokoua/cameroon-tech-jobs` | UNVERIFIED | Repository URL |
 | `https://github.com/paulfokoua/trading-bot` | UNVERIFIED | Repository URL |
