@@ -1,8 +1,8 @@
 import { ProjectsList } from '@/components/sections/projects-list'
 
 export const metadata = {
-  title: 'Projects — FOKOUA PAUL EMMANUEL',
-  description: 'Selected software engineering projects by FOKOUA PAUL EMMANUEL, including backend systems, developer tools, and full-stack applications.',
+  title: 'Projects',
+  description: 'Selected backend, full-stack, AI, e-commerce, and platform engineering projects by FOKOUA PAUL EMMANUEL.',
 }
 
 export default function Projects() {

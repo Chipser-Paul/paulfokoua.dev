@@ -2,17 +2,17 @@
   "schemaVersion": "1.0.0",
   "id": "cameroon-tech-jobs",
   "slug": "cameroon-tech-jobs",
-  "title": "CameroonTechJobs",
-  "status": "previously deployed",
-  "type": "platform",
+  "title": "Cameroon Tech Jobs",
+  "status": "deployment-ready",
+  "type": "jobs platform",
   "featured": true,
-  "featuredOrder": 1,
+  "featuredOrder": 2,
   "published": true,
-  "shortDescription": "A Django-based IT job board platform connecting Cameroonian tech talent with employers. Built and previously deployed; the hosted database was removed after the Render free-tier period expired.",
-  "longDescription": "CameroonTechJobs is a Django-based job board platform designed to connect Cameroonian software engineers, designers, and product managers with employers looking to hire tech talent. The platform includes job listing management, authentication, employer and candidate dashboards, and MTN MoMo payment integration. The application was deployed on Render with PostgreSQL, but the hosted database was removed after the free-tier period expired. The project remains available as a deployment-ready codebase.",
-  "problem": "Tech professionals in Cameroon struggled to discover relevant job opportunities, while employers had difficulty finding qualified local talent through generic job boards.",
-  "solution": "Built a focused, tech-first job board with authentication, role-based dashboards, job listing management, and payment integration tailored to the Cameroonian tech ecosystem.",
-  "architecture": "Monolithic Django backend with PostgreSQL, served through Django templates and static assets. Authentication and role-based access control manage distinct workflows for employers and candidates. MTN MoMo API integration handles payment collection.",
+  "shortDescription": "A Django 5 job board for Cameroon tech hiring with employer/job-seeker dashboards, search, applications, payments readiness, admin controls, and mobile-friendly PWA behavior.",
+  "longDescription": "Cameroon Tech Jobs is a Django job board for the Cameroon tech community. Companies can post openings, job seekers can browse and apply, and both sides can manage applications, interviews, notifications, and paid listing workflows from one place.",
+  "problem": "Tech professionals in Cameroon need a focused place to discover local opportunities, while employers need practical tools for publishing roles, managing applications, and communicating with candidates.",
+  "solution": "Built a Cameroon-focused job board with separate company and job seeker accounts, searchable job listings, application tracking, interview scheduling, notifications, paid listing readiness, and admin analytics.",
+  "architecture": "Django 5 application with PostgreSQL via Neon, Cloudinary media handling, WhiteNoise static assets, Celery and Redis for asynchronous work, Tranzak payment flow support, and Render-ready deployment scripts.",
   "client": null,
   "team": false,
   "teamSize": null,
@@ -20,37 +20,41 @@
   "endDate": "2023-12-31",
   "techStack": [
     "Python",
-    "Django",
+    "Django 5",
     "PostgreSQL",
-    "Render",
-    "MTN MoMo API",
-    "Docker",
-    "PWA"
+    "Neon",
+    "Cloudinary",
+    "Celery",
+    "Redis",
+    "Tranzak",
+    "PWA",
+    "Render"
   ],
   "features": [
-    "Employer and candidate authentication with role-based access",
-    "Job listing creation, management, and search",
-    "Employer dashboard for tracking applications",
-    "Candidate dashboard for managing applications and profile",
-    "MTN MoMo payment integration for job posting fees",
-    "Progressive Web App (PWA) functionality for mobile access"
+    "Company and job seeker accounts with separate dashboards",
+    "Job listing creation, management, search, and filtering",
+    "Applications with status tracking and unique per-seeker constraints",
+    "Application conversations and interview scheduling",
+    "Notifications for applications, messages, and interview updates",
+    "Paid listing plans with Tranzak payment integration readiness",
+    "Admin analytics dashboard and demo data seeding"
   ],
   "challenges": [
-    "Designing role-based access control for distinct employer and candidate workflows",
-    "Integrating MTN MoMo API payment flows within a Django application",
-    "Managing media uploads and static assets on a constrained Render deployment"
+    "Designing role-based workflows for companies and job seekers",
+    "Modeling applications, interviews, notifications, and paid listing logic cleanly",
+    "Preparing deployment for external services such as Neon, Cloudinary, Redis, and Render"
   ],
   "lessonsLearned": [
-    "Starting with a lean MVP is more effective than building complex matching features upfront",
-    "Caching and query optimization are critical for read-heavy job boards",
-    "Building trust with both job seekers and employers requires transparent communication and reliable uptime"
+    "Job boards need strong search and filtering before advanced matching features",
+    "Role separation makes dashboard UX clearer and reduces permission mistakes",
+    "Deployment documentation and demo data make a product easier to evaluate quickly"
   ],
   "futureImprovements": [
     "AI-powered resume review and job-fit scoring",
-    "Integration with African payroll and HR systems",
+    "More employer analytics and candidate pipeline reporting",
     "Native mobile applications for employers and candidates"
   ],
-  "github": null,
+  "github": "https://github.com/Chipser-Paul/cameroon-tech-jobs",
   "liveDemo": null,
   "images": [
     "/images/projects/cameroon-tech-jobs/dashboard.png",
@@ -58,5 +62,5 @@
     "/images/projects/cameroon-tech-jobs/Contact.png",
     "/images/projects/cameroon-tech-jobs/Screenshot 2026-04-13 153016.png"
   ],
-  "lastUpdated": "2026-01-15T10:00:00+01:00"
+  "lastUpdated": "2026-08-22T23:30:00+01:00"
 }

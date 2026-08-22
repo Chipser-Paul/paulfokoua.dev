@@ -4,7 +4,7 @@ import { loadFeaturedProjects } from '@/lib/loaders/projects'
 import { ProjectCard } from '@/components/cards/project-card'
 
 export function SelectedProjects() {
-  const projects = loadFeaturedProjects(3)
+  const projects = loadFeaturedProjects(4)
 
   return (
     <section className="container mx-auto px-4 py-16 md:py-24">
@@ -12,7 +12,7 @@ export function SelectedProjects() {
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-text">Selected work</h2>
           <p className="text-sm text-text-secondary max-w-lg">
-            A selection of projects demonstrating backend systems, developer tools, and full-stack applications.
+            Backend, full-stack, AI, e-commerce, and platform projects built with practical engineering discipline.
           </p>
         </div>
         <Link
@@ -24,7 +24,7 @@ export function SelectedProjects() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

@@ -4,20 +4,20 @@
   "slug": "candy-beauty",
   "title": "Candy Beauty",
   "status": "deployed",
-  "type": "e-commerce",
+  "type": "client e-commerce",
   "featured": true,
   "featuredOrder": 0,
   "published": true,
-  "shortDescription": "A modern beauty and cosmetics e-commerce store built with Next.js, PostgreSQL, NextAuth, Stripe, and a Cameroon-focused FCFA product catalog.",
-  "longDescription": "Candy Beauty is a full-stack cosmetics e-commerce website for a beauty brand selling skincare, makeup, haircare, and body care products. The platform includes a polished public storefront, product browsing, product detail pages, authentication, cart and checkout flows, Stripe test payments, a customer account area, and a protected admin dashboard for managing products, categories, orders, and basic analytics. The catalog was localized for Cameroon with FCFA pricing, Cameroon-focused beauty products, and sold-out product handling.",
+  "shortDescription": "A Cameroon-focused beauty e-commerce store built with Next.js 14, TypeScript, Prisma, PostgreSQL, NextAuth, Stripe test checkout, FCFA pricing, and a protected admin dashboard.",
+  "longDescription": "Candy Beauty is a full-stack cosmetics e-commerce website for a beauty brand selling skincare, makeup, haircare, and body care products. The platform includes a polished public storefront, product browsing, product detail pages, authentication, cart and checkout flows, Stripe test payments, a customer account area, and a protected admin dashboard for managing products, categories, orders, and basic analytics. The catalog is localized for Cameroon with FCFA pricing, Cameroon-focused beauty products, and sold-out product handling.",
   "problem": "Small beauty brands need a professional online sales channel that feels premium to customers while still giving the owner practical tools for managing products, orders, and inventory without needing a separate back-office system.",
   "solution": "Built a responsive full-stack e-commerce platform with a soft premium beauty aesthetic, authentication-gated cart and checkout behavior, Stripe checkout, PostgreSQL persistence, seeded Cameroon-focused product data, and a protected admin dashboard for day-to-day store management.",
   "architecture": "Next.js App Router application using server-rendered pages and API routes, Prisma as the database layer, PostgreSQL on Neon for production storage, NextAuth.js for authentication and role-based access, Zustand for client-side cart state, Zod and React Hook Form for validation, and Stripe Checkout for payments. Vercel handles production deployment from the GitHub main branch.",
-  "client": null,
+  "client": "Candy Beauty",
   "team": false,
   "teamSize": null,
-  "startDate": "2026-08-01",
-  "endDate": "2026-08-22",
+  "startDate": "2024-03-01",
+  "endDate": "2024-04-30",
   "techStack": [
     "Next.js 14",
     "React",
@@ -60,6 +60,12 @@
   ],
   "github": "https://github.com/Chipser-Paul/Candy-beauty",
   "liveDemo": "https://candy-beauty.vercel.app",
-  "images": [],
-  "lastUpdated": "2026-08-22T09:00:00+01:00"
+  "images": [
+    "/images/projects/candy-beauty/homepage.png",
+    "/images/projects/candy-beauty/products.png",
+    "/images/projects/candy-beauty/admin-dashboard.png",
+    "/images/projects/candy-beauty/about.png",
+    "/images/projects/candy-beauty/contact.png"
+  ],
+  "lastUpdated": "2026-08-22T23:30:00+01:00"
 }

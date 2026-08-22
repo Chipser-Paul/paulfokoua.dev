@@ -3,37 +3,37 @@
   "id": "profile",
   "name": "FOKOUA PAUL EMMANUEL",
   "preferredName": "Paul",
-  "title": "Software Engineer",
-  "tagline": "Building practical backend and full-stack systems",
-  "website": "https://paulfokoua.dev",
+  "title": "Backend & Full-Stack Software Engineer",
+  "tagline": "Building tested backend and full-stack products with TypeScript, Python, and PostgreSQL",
+  "website": "https://paulfokoua-dev.vercel.app",
   "location": "Douala, Cameroon",
   "email": "chipseremmanuel@gmail.com",
+  "phone": "+237 675 952 537",
   "photo": "/images/profile.jpg",
-  "bio": "Software engineering student and independent developer focused on backend systems, APIs, and developer tools. Experienced with Python and JavaScript through academic coursework, internships, and self-directed project work.",
-  "mission": "To build reliable, maintainable software systems and continue growing as a practitioner through hands-on engineering and academic study.",
+  "bio": "Software engineer with 3+ years of hands-on development across industry internship, paid client work, and independent product engineering. I build full-stack and backend systems with TypeScript, React, Next.js, Python, Django, PostgreSQL, REST APIs, automated testing, CI/CD, and Docker.",
+  "mission": "To build reliable, maintainable software products that solve real problems, ship with strong engineering fundamentals, and keep improving through practical project work.",
   "availability": {
     "openToWork": true,
     "availableFrom": "2026-09-01",
-    "preferredRoles": ["Backend Engineer", "Full Stack Engineer", "Software Engineer"]
+    "preferredRoles": ["Backend Engineer", "Full-Stack Engineer", "Software Engineer"]
   },
   "currentFocus": [
-    "Backend architecture and API design",
-    "Developer tooling and automation",
-    "Databases and data modeling"
+    "Backend APIs, data modeling, and service architecture",
+    "Full-stack product engineering with React, Next.js, and TypeScript",
+    "AI-assisted workflows, RAG, automated testing, and production deployment"
   ],
   "languages": [
     { "language": "English", "level": "Professional" },
-    { "language": "French", "level": "Native" },
-    { "language": "Cameroonian Pidgin", "level": "Conversational" }
+    { "language": "French", "level": "Professional" }
   ],
   "interests": [
     "Backend engineering",
     "Full-stack development",
-    "Developer tools",
+    "AI-assisted products",
     "APIs and automation",
-    "Software architecture",
+    "Testing and CI/CD",
     "Databases"
   ],
-  "lastUpdated": "2026-08-08T00:00:00+01:00",
-  "version": "1.0.0"
+  "lastUpdated": "2026-08-22T23:30:00+01:00",
+  "version": "1.1.0"
 }

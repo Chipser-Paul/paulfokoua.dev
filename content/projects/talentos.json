@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "talentos",
+  "slug": "talentos",
+  "title": "TalentOS",
+  "status": "portfolio-grade",
+  "type": "AI recruitment platform",
+  "featured": true,
+  "featuredOrder": 1,
+  "published": true,
+  "shortDescription": "An AI-powered recruitment and developer evaluation platform built with React 19, Express 5, TypeScript, PostgreSQL, Drizzle, OpenAI, Docker, and 25 passing tests.",
+  "longDescription": "TalentOS is a full-stack recruitment platform that combines authenticated workspace management, typed API contracts, and AI-assisted hiring signals. It demonstrates production-ready engineering patterns across React, Express, PostgreSQL, OpenAI integrations, CI, testing, Docker, and API contract generation.",
+  "problem": "Recruitment teams need structured tools for managing jobs, candidates, assessments, and hiring knowledge without turning AI into an ungrounded decision-maker.",
+  "solution": "Built a recruitment workspace with job and candidate management, structured candidate-to-job fit scoring, grounded RAG answers from workspace knowledge sources, typed OpenAPI contracts, and protected backend routes.",
+  "architecture": "React 19 and Vite frontend backed by an Express 5 TypeScript API. PostgreSQL with Drizzle ORM stores workspace data, Clerk handles authentication, OpenAPI 3.1 drives generated clients and schemas, and OpenAI integrations are isolated behind service-layer abstractions with Zod validation.",
+  "client": null,
+  "team": false,
+  "teamSize": null,
+  "startDate": "2026-06-01",
+  "endDate": "2026-07-31",
+  "techStack": [
+    "React 19",
+    "Vite",
+    "Express 5",
+    "TypeScript",
+    "PostgreSQL",
+    "Drizzle",
+    "OpenAI API",
+    "Docker",
+    "Vitest",
+    "Supertest",
+    "GitHub Actions"
+  ],
+  "features": [
+    "Authenticated recruitment workspace with jobs, candidates, assessments, knowledge sources, and automations",
+    "AI candidate evaluation with structured scores, strengths, gaps, and recommendation outputs",
+    "Grounded RAG knowledge assistant using PostgreSQL full-text search and source-constrained answers",
+    "OpenAPI 3.1 source of truth with generated React Query client and Zod schemas",
+    "Rate limiting, security headers, request size limits, environment validation, and health checks",
+    "25 passing Vitest/Supertest tests covering API contracts, rate limiting, security, and readiness behavior",
+    "Docker and Docker Compose support for repeatable development and deployment"
+  ],
+  "challenges": [
+    "Keeping AI features grounded and explainable instead of presenting them as autonomous hiring decisions",
+    "Designing workspace-scoped data access and protected APIs across jobs, candidates, assessments, and knowledge sources",
+    "Maintaining type safety from OpenAPI contracts through frontend clients and backend validation"
+  ],
+  "lessonsLearned": [
+    "AI product features need explicit boundaries, fallbacks, and source grounding to remain trustworthy",
+    "Generated API clients and schemas reduce drift between frontend and backend contracts",
+    "Security, testing, and deployment documentation make portfolio projects feel much closer to real products"
+  ],
+  "futureImprovements": [
+    "Document upload and parsing for knowledge sources",
+    "pgvector embeddings for semantic retrieval",
+    "Expanded automation execution engine",
+    "Shared rate-limit store for horizontal scaling",
+    "End-to-end test coverage"
+  ],
+  "github": "https://github.com/Chipser-Paul/TalentOS",
+  "liveDemo": null,
+  "images": [],
+  "lastUpdated": "2026-08-22T23:30:00+01:00"
+}

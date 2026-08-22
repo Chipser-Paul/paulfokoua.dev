@@ -11,12 +11,10 @@ export function ProfessionalStory() {
         </h2>
         <div className="space-y-4 text-base md:text-lg text-text-secondary leading-relaxed">
           <p>
-            I&apos;m a software engineer focused on building backend systems, full-stack web applications, and developer tools.
-            My work centers on clean architecture, performance, and delivering real-world solutions that are practical and maintainable.
+            I am a backend and full-stack software engineer focused on practical products: typed APIs, database-backed workflows, responsive interfaces, and deployment-ready systems.
           </p>
           <p>
-            I&apos;m especially interested in backend engineering, APIs, and scalable systems.
-            I enjoy turning complex requirements into straightforward, well-structured software.
+            My work spans a paid e-commerce client project, an AI recruitment platform with RAG and tested API behavior, a Cameroon-focused jobs platform, and a Python trading research system. Across these projects, I care about clear architecture, validation, testing, documentation, and shipping software that can be evaluated by real users.
           </p>
           {profile.mission && (
             <p className="italic text-text-secondary">

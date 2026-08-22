@@ -1,36 +1,44 @@
 {
   "schemaVersion": "1.0.0",
-  "backend": [
-    { "name": "Python", "level": "Advanced", "years": 3, "category": "backend" },
-    { "name": "Java", "level": "Intermediate", "years": 2, "category": "backend" },
-    { "name": "PHP", "level": "Intermediate", "years": 2, "category": "backend" }
+  "languages": [
+    { "name": "TypeScript", "level": "Advanced", "years": 3, "category": "languages" },
+    { "name": "JavaScript", "level": "Advanced", "years": 4, "category": "languages" },
+    { "name": "Python", "level": "Advanced", "years": 3, "category": "languages" },
+    { "name": "PHP", "level": "Intermediate", "years": 2, "category": "languages" },
+    { "name": "SQL", "level": "Advanced", "years": 3, "category": "languages" }
   ],
   "frontend": [
-    { "name": "JavaScript", "level": "Advanced", "years": 4, "category": "frontend" },
     { "name": "React", "level": "Advanced", "years": 3, "category": "frontend" },
-    { "name": "Next.js", "level": "Intermediate", "years": 2, "category": "frontend" },
-    { "name": "Tailwind CSS", "level": "Intermediate", "years": 2, "category": "frontend" },
-    { "name": "Dart", "level": "Beginner", "years": 0.5, "category": "frontend" }
+    { "name": "Next.js", "level": "Advanced", "years": 2, "category": "frontend" },
+    { "name": "Vite", "level": "Intermediate", "years": 1, "category": "frontend" },
+    { "name": "Tailwind CSS", "level": "Advanced", "years": 2, "category": "frontend" },
+    { "name": "Zustand", "level": "Intermediate", "years": 1, "category": "frontend" }
   ],
-  "frameworks": [
-    { "name": "Django", "level": "Advanced", "years": 3, "category": "frameworks" },
-    { "name": "Laravel", "level": "Intermediate", "years": 2, "category": "frameworks" },
-    { "name": "Flutter", "level": "Beginner", "years": 0.5, "category": "frameworks" }
+  "backend": [
+    { "name": "Django", "level": "Advanced", "years": 3, "category": "backend" },
+    { "name": "Express", "level": "Intermediate", "years": 2, "category": "backend" },
+    { "name": "Laravel", "level": "Intermediate", "years": 2, "category": "backend" },
+    { "name": "REST APIs", "level": "Advanced", "years": 3, "category": "backend" },
+    { "name": "OpenAPI", "level": "Intermediate", "years": 1, "category": "backend" }
   ],
-  "databases": [
-    { "name": "PostgreSQL", "level": "Advanced", "years": 3, "category": "databases" },
-    { "name": "MySQL", "level": "Intermediate", "years": 2, "category": "databases" },
-    { "name": "MongoDB", "level": "Intermediate", "years": 2, "category": "databases" },
-    { "name": "Redis", "level": "Intermediate", "years": 2, "category": "databases" }
+  "data": [
+    { "name": "PostgreSQL", "level": "Advanced", "years": 3, "category": "data" },
+    { "name": "Prisma", "level": "Advanced", "years": 2, "category": "data" },
+    { "name": "Drizzle", "level": "Intermediate", "years": 1, "category": "data" },
+    { "name": "Redis", "level": "Intermediate", "years": 2, "category": "data" },
+    { "name": "Neon", "level": "Intermediate", "years": 1, "category": "data" }
   ],
-  "tools": [
-    { "name": "Git", "level": "Advanced", "years": 4, "category": "tools" },
-    { "name": "VS Code", "level": "Advanced", "years": 4, "category": "tools" },
-    { "name": "Docker", "level": "Intermediate", "years": 2, "category": "tools" },
-    { "name": "Postman", "level": "Advanced", "years": 3, "category": "tools" },
-    { "name": "Figma", "level": "Intermediate", "years": 2, "category": "tools" }
+  "quality": [
+    { "name": "Vitest", "level": "Intermediate", "years": 1, "category": "quality" },
+    { "name": "Supertest", "level": "Intermediate", "years": 1, "category": "quality" },
+    { "name": "GitHub Actions", "level": "Intermediate", "years": 1, "category": "quality" },
+    { "name": "Docker", "level": "Intermediate", "years": 2, "category": "quality" },
+    { "name": "Vercel", "level": "Advanced", "years": 2, "category": "quality" }
   ],
-  "currentlyLearning": [
-    { "name": "Rust", "level": "Beginner", "years": 0.5, "category": "currentlyLearning" }
-  ]
+  "ai": [
+    { "name": "OpenAI API", "level": "Intermediate", "years": 1, "category": "ai" },
+    { "name": "RAG", "level": "Intermediate", "years": 1, "category": "ai" },
+    { "name": "Structured outputs", "level": "Intermediate", "years": 1, "category": "ai" }
+  ],
+  "currentlyLearning": []
 }

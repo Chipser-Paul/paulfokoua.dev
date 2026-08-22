@@ -12,11 +12,11 @@ export function Footer() {
           <div className="text-center">
             <p className="font-semibold text-lg">FOKOUA PAUL</p>
             <p className="mt-1 text-sm text-text-secondary max-w-md">
-              Software Engineer building backend systems, web applications, and developer tools.
+              Backend & Full-Stack Software Engineer building tested web products, APIs, and AI-assisted systems.
             </p>
           </div>
 
-          <div className="flex items-center gap-6 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
             <Link
               href={site.github}
               target="_blank"
@@ -35,14 +35,15 @@ export function Footer() {
             </Link>
             <Link
               href={`mailto:${site.email}`}
-              className="text-text-secondary hover:text-text transition-colors"
+              className="inline-flex items-center gap-1 text-text-secondary hover:text-text transition-colors"
             >
+              <Mail className="h-4 w-4" />
               {site.email}
             </Link>
           </div>
 
           <p className="text-sm text-text-secondary">
-             © {currentYear} FOKOUA PAUL EMMANUEL. All rights reserved.
+            &copy; {currentYear} FOKOUA PAUL EMMANUEL. All rights reserved.
           </p>
         </div>
       </div>

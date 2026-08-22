@@ -13,13 +13,22 @@ export async function generateMetadata({ params }) {
 
   if (!project) {
     return {
-      title: 'Project not found — FOKOUA PAUL EMMANUEL',
+      title: 'Project not found',
     }
   }
 
   return {
-    title: `${project.title} — FOKOUA PAUL EMMANUEL`,
+    title: project.title,
     description: project.shortDescription,
+    openGraph: {
+      title: project.title,
+      description: project.shortDescription,
+      type: 'article',
+    },
+    twitter: {
+      title: project.title,
+      description: project.shortDescription,
+    },
   }
 }
 

@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'About',
+  description: 'About FOKOUA PAUL EMMANUEL, a Backend & Full-Stack Software Engineer based in Douala, Cameroon.',
+}
+
 import { AboutHero } from '@/components/sections/about-hero'
 import { ProfessionalStory } from '@/components/sections/professional-story'
 import { TechnicalStrengths } from '@/components/sections/technical-strengths'

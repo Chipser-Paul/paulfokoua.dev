@@ -4,37 +4,55 @@
     {
       "id": "exp-001",
       "order": 1,
-      "company": "Independent Software Development",
-      "position": "Software Engineer",
+      "company": "Independent Product Engineering",
+      "position": "Backend & Full-Stack Software Engineer",
       "location": "Douala, Cameroon",
       "startDate": "2023-01-01",
       "endDate": null,
       "current": true,
       "employmentType": "Independent",
-      "description": "Independent software engineering focused on backend systems, APIs, databases, and developer tooling. Building and deploying practical applications while completing a B.Tech in Software Engineering.",
+      "description": "Independent software engineering focused on backend APIs, full-stack products, AI-assisted workflows, databases, testing, and deployment.",
       "responsibilities": [
-        "Design and implement backend services and REST APIs",
-        "Build full-stack applications using Python and JavaScript",
-        "Develop CLI tools and automation utilities to reduce repetitive development work",
-        "Deploy applications and manage hosting for personal and academic projects"
+        "Built and deployed production-style full-stack applications using TypeScript, React, Next.js, Python, Django, PostgreSQL, and Docker",
+        "Delivered portfolio-grade systems with authentication, role-based access, API contracts, CI checks, and deployment documentation",
+        "Developed AI-assisted product workflows including candidate evaluation, RAG knowledge retrieval, structured outputs, and tested API behavior"
       ],
-      "technologies": ["Python", "JavaScript", "Django", "PostgreSQL", "Docker"]
+      "technologies": ["TypeScript", "React", "Next.js", "Python", "Django", "PostgreSQL", "Docker", "OpenAI API"]
     },
     {
       "id": "exp-002",
       "order": 2,
+      "company": "Candy Beauty",
+      "position": "Full-Stack Developer - Paid Client Project",
+      "location": "Remote",
+      "startDate": "2024-03-01",
+      "endDate": "2024-04-30",
+      "current": false,
+      "employmentType": "Client Project",
+      "description": "Delivered a Cameroon-focused beauty e-commerce platform with a polished storefront, authenticated accounts, protected admin dashboard, FCFA pricing, and Vercel production deployment.",
+      "responsibilities": [
+        "Owned end-to-end delivery of the storefront, product catalog, customer accounts, and admin dashboard",
+        "Implemented cart and checkout flows, product CRUD, image upload, order management, SEO metadata, and responsive UI",
+        "Configured Prisma, PostgreSQL on Neon, NextAuth authentication, Stripe test checkout, seed data, and Vercel deployment"
+      ],
+      "technologies": ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "NextAuth.js", "Stripe", "Tailwind CSS", "Vercel"]
+    },
+    {
+      "id": "exp-003",
+      "order": 3,
       "company": "VIM Solution",
       "position": "Software Engineering Intern",
-      "location": "Douala, Cameroon",
-      "startDate": "2022-06-01",
-      "endDate": "2023-05-31",
+      "location": "Cameroon",
+      "startDate": "2022-01-01",
+      "endDate": "2023-12-31",
       "current": false,
       "employmentType": "Internship",
-      "description": "Software engineering internship focused on web application development using PHP, JavaScript, and MySQL.",
+      "description": "Software engineering internship focused on database-backed web functionality using PHP, JavaScript, AJAX, and MySQL.",
       "responsibilities": [
-        "Worked with PHP, JavaScript, and MySQL while contributing to web application development"
+        "Developed and maintained web application functionality using PHP, JavaScript, AJAX, and MySQL",
+        "Assisted with debugging, database queries, frontend/backend integration, and validation of application workflows"
       ],
-      "technologies": ["PHP", "JavaScript", "MySQL"]
+      "technologies": ["PHP", "JavaScript", "MySQL", "AJAX"]
     }
   ]
 }

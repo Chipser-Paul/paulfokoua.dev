@@ -13,24 +13,25 @@ const inter = Inter({
 })
 
 export const metadata = {
+  metadataBase: new URL(site.url),
   title: {
-    default: `${site.author} — ${site.description}`,
-    template: `%s — ${site.author}`,
+    default: `${site.author} - ${site.description}`,
+    template: `%s - ${site.author}`,
   },
   description: site.description,
-  keywords: ['software engineer', 'backend', 'portfolio', 'FOKOUA PAUL EMMANUEL', 'Cameroon'],
+  keywords: ['software engineer', 'backend engineer', 'full-stack engineer', 'TypeScript', 'React', 'Next.js', 'Python', 'Django', 'PostgreSQL', 'Cameroon'],
   authors: [{ name: site.author }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: site.url,
-    title: `${site.author} — ${site.description}`,
+    title: `${site.author} - ${site.description}`,
     description: site.description,
     siteName: site.author,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${site.author} — ${site.description}`,
+    title: `${site.author} - ${site.description}`,
     description: site.description,
   },
 }

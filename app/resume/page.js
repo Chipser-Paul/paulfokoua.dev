@@ -4,8 +4,8 @@ import { site } from '@/lib/constants/site'
 import { PrintButton } from '@/components/ui/print-button'
 
 export const metadata = {
-  title: 'Resume — FOKOUA PAUL EMMANUEL',
-  description: 'Professional resume of FOKOUA PAUL EMMANUEL, Software Engineer specializing in backend systems and full-stack development.',
+  title: 'Resume',
+  description: 'Resume of FOKOUA PAUL EMMANUEL, Backend & Full-Stack Software Engineer specializing in TypeScript, React, Next.js, Python, Django, and PostgreSQL.',
 }
 
 export default function Resume() {
@@ -30,8 +30,8 @@ export default function Resume() {
             </p>
             <p className="mt-1 text-sm text-text-secondary">
               {profile.location}
-              {profile.email && ` · ${profile.email}`}
-              {profile.website && ` · ${profile.website}`}
+              {profile.email && ` - ${profile.email}`}
+              {profile.website && ` - ${profile.website}`}
             </p>
           </div>
 
@@ -98,8 +98,8 @@ export default function Resume() {
                   </h3>
                   <p className="text-sm text-primary">{exp.company}</p>
                   <p className="text-xs text-text-secondary">
-                    {formatDate(exp.startDate)} — {formatDate(exp.endDate)}
-                    {exp.location && ` · ${exp.location}`}
+                    {formatDate(exp.startDate)} - {formatDate(exp.endDate)}
+                    {exp.location && ` - ${exp.location}`}
                   </p>
                 </div>
                 {exp.description && (
@@ -128,8 +128,8 @@ export default function Resume() {
                 <p className="text-sm text-primary">{edu.institution}</p>
                 <p className="text-xs text-text-secondary">
                   {edu.startYear}
-                  {edu.endYear ? ` — ${edu.endYear}` : ''}
-                  {edu.status && ` · ${edu.status}`}
+                  {edu.endYear ? ` - ${edu.endYear}` : ''}
+                  {edu.status && ` - ${edu.status}`}
                 </p>
                 {edu.description && (
                   <p className="text-sm text-text-secondary leading-relaxed mt-1">
