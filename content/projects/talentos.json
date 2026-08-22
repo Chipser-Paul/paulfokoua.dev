@@ -3,7 +3,7 @@
   "id": "talentos",
   "slug": "talentos",
   "title": "TalentOS",
-  "status": "portfolio-grade",
+  "status": "deployed",
   "type": "AI recruitment platform",
   "featured": true,
   "featuredOrder": 1,
@@ -58,7 +58,10 @@
     "End-to-end test coverage"
   ],
   "github": "https://github.com/Chipser-Paul/TalentOS",
-  "liveDemo": null,
-  "images": [],
-  "lastUpdated": "2026-08-22T23:30:00+01:00"
+  "liveDemo": "https://talent-os-talentos.vercel.app/",
+  "images": [
+    "/images/projects/talentos/overview.png",
+    "/images/projects/talentos/mobile-home.png"
+  ],
+  "lastUpdated": "2026-08-23T00:30:00+01:00"
 }

@@ -3,7 +3,7 @@
   "id": "cameroon-tech-jobs",
   "slug": "cameroon-tech-jobs",
   "title": "Cameroon Tech Jobs",
-  "status": "deployment-ready",
+  "status": "deployed",
   "type": "jobs platform",
   "featured": true,
   "featuredOrder": 2,
@@ -55,12 +55,12 @@
     "Native mobile applications for employers and candidates"
   ],
   "github": "https://github.com/Chipser-Paul/cameroon-tech-jobs",
-  "liveDemo": null,
+  "liveDemo": "https://cameroon-tech-jobs.onrender.com/",
   "images": [
     "/images/projects/cameroon-tech-jobs/dashboard.png",
     "/images/projects/cameroon-tech-jobs/About.png",
     "/images/projects/cameroon-tech-jobs/Contact.png",
     "/images/projects/cameroon-tech-jobs/Screenshot 2026-04-13 153016.png"
   ],
-  "lastUpdated": "2026-08-22T23:30:00+01:00"
+  "lastUpdated": "2026-08-23T00:30:00+01:00"
 }
