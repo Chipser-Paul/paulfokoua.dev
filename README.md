@@ -6,6 +6,11 @@ Live site: https://paulfokoua-dev.vercel.app
 GitHub: https://github.com/Chipser-Paul
 LinkedIn: https://www.linkedin.com/in/fokoua-paul-emmanuel
 
+[![CI](https://github.com/Chipser-Paul/paulfokoua.dev/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Chipser-Paul/paulfokoua.dev/actions/workflows/ci.yml)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8?logo=tailwindcss&logoColor=white)
+
 ## What This Portfolio Shows
 
 - Backend and full-stack project case studies
@@ -13,6 +18,12 @@ LinkedIn: https://www.linkedin.com/in/fokoua-paul-emmanuel
 - Resume content structured for hiring managers
 - Experience, education, technical strengths, and contact routes
 - Recruiter quick-scan sections for fast evaluation
+
+## Project Previews
+
+| Candy Beauty | TalentOS | Cameroon Tech Jobs |
+| --- | --- | --- |
+| ![Candy Beauty storefront preview](public/images/projects/candy-beauty/homepage.png) | ![TalentOS workspace preview](public/images/projects/talentos/overview.png) | ![Cameroon Tech Jobs dashboard preview](public/images/projects/cameroon-tech-jobs/dashboard.png) |
 
 ## Featured Work
 
