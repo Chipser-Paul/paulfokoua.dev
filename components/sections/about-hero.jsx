@@ -23,9 +23,11 @@ export function AboutHero() {
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-text md:text-5xl md:leading-tight">
             I am Paul, a backend and full-stack engineer focused on shipped product work.
           </h1>
-          <p className="mt-4 text-base leading-relaxed text-text-secondary md:text-lg">
-            {profile.bio}
-          </p>
+          <div className="mt-4 space-y-4 text-base leading-relaxed text-text-secondary md:text-lg">
+            {profile.bio.split('\n\n').map((paragraph, idx) => (
+              <p key={idx}>{paragraph}</p>
+            ))}
+          </div>
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <Link
               href="/projects"

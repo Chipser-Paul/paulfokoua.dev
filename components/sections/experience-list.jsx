@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, BriefcaseBusiness, CalendarDays, MapPin } from 'lucide-react'
+import { ArrowRight, BriefcaseBusiness, CalendarDays, ExternalLink, MapPin } from 'lucide-react'
 import { loadExperience } from '@/lib/loaders/experience'
 
 export function ExperienceList() {
@@ -31,7 +31,21 @@ export function ExperienceList() {
               {current.current ? 'Current focus' : 'Most recent engineering role'}
             </p>
             <h2 className="mt-2 text-lg font-semibold text-text">{current.position}</h2>
-            <p className="mt-1 text-sm text-primary">{current.company}</p>
+            <p className="mt-1 text-sm text-primary">
+              {current.companyUrl ? (
+                <a
+                  href={current.companyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 hover:underline"
+                >
+                  {current.company}
+                  <ExternalLink className="h-3.5 w-3.5" />
+                </a>
+              ) : (
+                current.company
+              )}
+            </p>
             <p className="mt-3 text-sm leading-relaxed text-text-secondary">{current.description}</p>
           </div>
         )}
@@ -58,7 +72,21 @@ export function ExperienceList() {
                       </span>
                     )}
                     <h2 className="text-lg font-semibold text-text">{exp.position}</h2>
-                    <p className="mt-1 text-sm font-medium text-primary">{exp.company}</p>
+                    <p className="mt-1 text-sm font-medium text-primary">
+                      {exp.companyUrl ? (
+                        <a
+                          href={exp.companyUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1.5 hover:underline"
+                        >
+                          {exp.company}
+                          <ExternalLink className="h-3.5 w-3.5" />
+                        </a>
+                      ) : (
+                        exp.company
+                      )}
+                    </p>
                   </div>
                   <div className="space-y-1 text-sm text-text-secondary md:text-right">
                     <p className="inline-flex items-center gap-1 md:justify-end">

@@ -25,10 +25,10 @@ export function ProfessionalStory() {
             <div className="rounded-lg border border-border bg-background p-6 shadow-sm">
               <div className="space-y-4 text-base leading-relaxed text-text-secondary md:text-lg">
                 <p>
-                  I am a backend and full-stack software engineer focused on practical products: typed APIs, database-backed workflows, responsive interfaces, and deployment-ready systems.
+                  I am a backend and full-stack software engineer based in Douala, Cameroon, focused on building reliable, test-backed web products and distributed services. My background spans freelance production backend engineering at GlitGo (developing Node.js/Express APIs, MongoDB/Firebase data models, and Next.js admin tools for an on-demand vehicle platform in the US and France), paid commercial delivery at Candy Beauty (shipping an end-to-end e-commerce store with Stripe and Next.js 14), and web development at VIM Solutions.
                 </p>
                 <p>
-                  My work spans production backend freelance engineering for GlitGo, a paid client e-commerce platform at Candy Beauty, an AI recruitment platform with RAG at TalentOS, a personal AI engineering assistant in CHIP AI, a Cameroon tech job board, and an algorithmic trading research system. Across these systems, I care about clean API contracts, data modeling, automated testing, security, and shipping software that delivers real value.
+                  I specialize in bridging scalable backend systems (FastAPI, Express, Django, PostgreSQL, Docker) with modern, accessible frontend interfaces (React 19, Next.js, Tailwind CSS) and grounded AI capabilities (RAG, structured outputs, agent loops). I value clear API boundaries, automated test coverage, and deployable documentation over hype.
                 </p>
                 {profile.mission && (
                   <p className="border-l border-primary pl-4 text-text">

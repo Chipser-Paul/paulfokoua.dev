@@ -6,7 +6,7 @@
   "status": "active",
   "type": "AI engineering assistant",
   "featured": true,
-  "featuredOrder": 3,
+  "featuredOrder": 4,
   "published": true,
   "shortDescription": "A personal AI engineering assistant built with Python, FastAPI, SQLite, React, TypeScript, Vite, and Tailwind CSS to manage projects, integrate with VS Code, run test suites, and execute approved engineering tasks remotely from an Android phone.",
   "longDescription": "CHIP AI is an autonomous personal AI engineering assistant and desktop agent platform designed to streamline daily engineering workflows. Built with a FastAPI backend and a React/TypeScript/Tailwind CSS web dashboard, it integrates directly with the local development environment, manages workspace projects, runs automated test suites, interacts with VS Code, and safely executes approved engineering tasks remotely from an Android phone using secure bridge protocols and explicit human confirmation gates.",

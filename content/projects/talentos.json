@@ -6,7 +6,7 @@
   "status": "deployed",
   "type": "AI recruitment platform",
   "featured": true,
-  "featuredOrder": 1,
+  "featuredOrder": 2,
   "published": true,
   "shortDescription": "An AI-powered recruitment and developer evaluation platform built with React 19, Express 5, TypeScript, PostgreSQL, Drizzle, OpenAI, Docker, and 25 passing tests.",
   "longDescription": "TalentOS is a full-stack recruitment platform that combines authenticated workspace management, typed API contracts, and AI-assisted hiring signals. It demonstrates production-ready engineering patterns across React, Express, PostgreSQL, OpenAI integrations, CI, testing, Docker, and API contract generation.",

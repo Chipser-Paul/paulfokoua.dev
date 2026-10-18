@@ -6,7 +6,7 @@
   "status": "deployed",
   "type": "client e-commerce",
   "featured": true,
-  "featuredOrder": 0,
+  "featuredOrder": 1,
   "published": true,
   "shortDescription": "A Cameroon-focused beauty e-commerce store built with Next.js 14, TypeScript, Prisma, PostgreSQL, NextAuth, Stripe test checkout, FCFA pricing, and a protected admin dashboard.",
   "longDescription": "Candy Beauty is a full-stack cosmetics e-commerce website for a beauty brand selling skincare, makeup, haircare, and body care products. The platform includes a polished public storefront, product browsing, product detail pages, authentication, cart and checkout flows, Stripe test payments, a customer account area, and a protected admin dashboard for managing products, categories, orders, and basic analytics. The catalog is localized for Cameroon with FCFA pricing, Cameroon-focused beauty products, and sold-out product handling.",

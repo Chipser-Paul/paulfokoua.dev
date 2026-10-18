@@ -11,7 +11,7 @@ export function RecruiterSnapshot() {
       icon: BriefcaseBusiness,
       label: 'Target roles',
       value: profile.availability.preferredRoles.join(' / '),
-      detail: profile.availability.status || 'Available immediately',
+      detail: 'Available immediately',
     },
     {
       icon: Globe2,
@@ -28,7 +28,7 @@ export function RecruiterSnapshot() {
     {
       icon: MapPin,
       label: 'Location',
-      value: profile.location,
+      value: 'Douala, Cameroon',
       detail: 'Professional English and French (Remote / Worldwide)',
     },
   ]
@@ -43,7 +43,7 @@ export function RecruiterSnapshot() {
               Backend depth, full-stack delivery, and real deployed work.
             </h2>
             <p className="max-w-2xl text-sm leading-relaxed text-text-secondary">
-              A compact view of the signals recruiters usually need first: role direction, shipped projects, production tooling, language fit, and contact paths.
+              {profile.shortSummary}
             </p>
             <div className="flex flex-col gap-3 pt-2 sm:flex-row">
               <Link

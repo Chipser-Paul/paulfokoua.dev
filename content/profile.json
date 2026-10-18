@@ -1,26 +1,27 @@
 {
   "schemaVersion": "1.0.0",
   "id": "profile",
-  "name": "FOKOUA PAUL EMMANUEL",
-  "preferredName": "Paul",
+  "name": "Fokoua Paul Emmanuel",
+  "preferredName": "Paul / Chipser Paul",
   "title": "Backend & Full-Stack Software Engineer",
-  "tagline": "Building tested backend and full-stack products with TypeScript, Python, and PostgreSQL",
+  "tagline": "I build shipped web products with backend depth.",
   "website": "https://paulfokoua-dev.vercel.app",
-  "location": "Douala, Cameroon",
+  "location": "Douala, Littoral Region, Cameroon (WAT, UTC+1)",
   "email": "chipseremmanuel@gmail.com",
   "phone": "+237 675 952 537",
   "photo": "/images/profile.jpg",
-  "bio": "Software engineer with hands-on development across production freelance engineering at GlitGo, paid client work at Candy Beauty, and independent systems delivery. I build full-stack and backend systems with TypeScript, React, Next.js, Python, FastAPI, Django, Node.js, Express, PostgreSQL, REST APIs, automated testing, CI/CD, and Docker.",
-  "mission": "To build reliable, maintainable software products that solve real problems, ship with strong engineering fundamentals, and keep improving through practical project work.",
+  "shortSummary": "Backend & Full-Stack Software Engineer with 3+ years of hands-on experience building shipped web products, typed REST APIs, and AI-assisted workflows. Proven track record delivering production backend systems for on-demand platforms (GlitGo), full-stack commercial client e-commerce (Candy Beauty), and AI recruitment platforms (TalentOS) with automated testing, CI/CD, and Docker. Strong focus on API contract discipline, database integrity (PostgreSQL, MongoDB), and clean architecture across TypeScript, Python, Node.js, and React.",
+  "bio": "I am a backend and full-stack software engineer based in Douala, Cameroon, focused on building reliable, test-backed web products and distributed services. My background spans freelance production backend engineering at GlitGo (developing Node.js/Express APIs, MongoDB/Firebase data models, and Next.js admin tools for an on-demand vehicle platform in the US and France), paid commercial delivery at Candy Beauty (shipping an end-to-end e-commerce store with Stripe and Next.js 14), and web development at VIM Solutions.\n\nI specialize in bridging scalable backend systems (FastAPI, Express, Django, PostgreSQL, Docker) with modern, accessible frontend interfaces (React 19, Next.js, Tailwind CSS) and grounded AI capabilities (RAG, structured outputs, agent loops). I value clear API boundaries, automated test coverage, and deployable documentation over hype.",
+  "mission": "To engineer dependable, high-performance web systems and developer tools where clean architecture, type safety, test-driven reliability, and practical product thinking come standard.",
   "availability": {
     "openToWork": true,
     "status": "Available immediately",
-    "availableFrom": null,
-    "workTypes": ["Full-Time", "Part-Time", "Contract", "Paid Internship"],
+    "availableFrom": "Available immediately",
+    "workTypes": ["Full-Time", "Contract", "Part-Time", "Paid Internship"],
     "workplaceTypes": ["Remote"],
     "regions": ["Worldwide", "EMEA", "Africa", "UTC+1"],
     "preferredRoles": ["Backend Engineer", "Full-Stack Engineer", "Software Engineer"],
-    "details": "Available immediately (open to Full-Time, Part-Time, Contract, and Paid Internship remote roles across Worldwide / EMEA / Africa / UTC+1)"
+    "details": "Available immediately for full-time, contract, part-time, and paid internships (remote)."
   },
   "currentFocus": [
     "Backend APIs, data modeling, and service architecture",
@@ -39,6 +40,6 @@
     "Testing and CI/CD",
     "Databases"
   ],
-  "lastUpdated": "2026-10-18T22:00:00+01:00",
-  "version": "1.2.0"
+  "lastUpdated": "2026-10-18T23:00:00+01:00",
+  "version": "1.3.0"
 }

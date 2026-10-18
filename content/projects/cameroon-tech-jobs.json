@@ -6,7 +6,7 @@
   "status": "deployed",
   "type": "jobs platform",
   "featured": true,
-  "featuredOrder": 2,
+  "featuredOrder": 3,
   "published": true,
   "shortDescription": "A Django 5 job board for Cameroon tech hiring with employer/job-seeker dashboards, search, applications, payments readiness, admin controls, and mobile-friendly PWA behavior.",
   "longDescription": "Cameroon Tech Jobs is a Django job board for the Cameroon tech community. Companies can post openings, job seekers can browse and apply, and both sides can manage applications, interviews, notifications, and paid listing workflows from one place.",

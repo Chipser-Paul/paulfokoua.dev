@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "glitgo",
+  "slug": "glitgo",
+  "title": "GlitGo",
+  "status": "deployed",
+  "type": "on-demand vehicle services platform",
+  "featured": true,
+  "featuredOrder": 0,
+  "published": true,
+  "shortDescription": "Production backend APIs, data schemas, authentication workflows, and management dashboards for GlitGo, a deployed on-demand vehicle cleaning and photo-inspection platform operating in the Washington, DC Metro Area and Paris.",
+  "longDescription": "GlitGo (glitgo.com) is a deployed on-demand mobile vehicle care and photo-inspection platform operating across the Washington, DC Metro Area and Paris. As a freelance backend engineer, I developed and integrated Node.js and Express.js REST APIs powering user account management, on-demand service dispatching, 20-minute turnaround service workflows, real-time job tracking, and multi-angle photo-inspection reports. I modeled and managed data across MongoDB and Firebase, implemented OAuth authentication flows, built Next.js/React management dashboards for operators and providers ('Glitters'), and contributed to cross-platform Flutter mobile features.",
+  "problem": "On-demand vehicle cleaning requires strict coordination between customers and field technicians ('Glitters'), rapid 20-minute turnaround times, tamper-evident before/after photo verification, reliable job dispatching, and secure payment and authentication across multiple international operational zones.",
+  "solution": "Architected and deployed modular Node.js/Express REST APIs with robust validation, MongoDB and Firebase persistence, OAuth authentication flows, photo-inspection upload verification, and responsive Next.js operational dashboards to manage scheduling and dispatching.",
+  "architecture": "Node.js and Express.js backend services providing authenticated REST endpoints for web and mobile clients. MongoDB handles operational records, job lifecycles, and user profiles, while Firebase is leveraged for real-time notifications and image assets. Next.js and React power the administrative and operations dashboard, and Flutter provides the cross-platform mobile client for iOS and Android.",
+  "client": "GlitGo",
+  "team": true,
+  "teamSize": 4,
+  "startDate": "2025-02-01",
+  "endDate": "2026-04-30",
+  "techStack": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Firebase",
+    "OAuth",
+    "Next.js",
+    "React",
+    "Flutter",
+    "Docker",
+    "Git",
+    "GitHub"
+  ],
+  "features": [
+    "On-demand booking and automated job dispatching engine with 20-minute turnaround service model",
+    "Multi-angle before/after photo-inspection reporting system for verifiable vehicle condition validation",
+    "Secure user and provider authentication using OAuth and role-based access control",
+    "Real-time service tracking, Glitter provider status updates, and push notifications via Firebase",
+    "Next.js operational dashboard for booking administration, provider scheduling, and fleet dispatching",
+    "Cross-platform Flutter mobile integration for iOS and Android field technicians",
+    "Dockerized development and production staging environments"
+  ],
+  "challenges": [
+    "Managing dual database persistence across MongoDB for relational documents and Firebase for real-time status and media storage",
+    "Ensuring rapid, verifiable photo uploads and inspections from low-bandwidth mobile connections in the field",
+    "Coordinating multi-timezone operational schedules across the Washington, DC Metro area and Paris"
+  ],
+  "lessonsLearned": [
+    "Separating real-time state synchronization from core transactional booking APIs improves overall system resilience",
+    "Strict API contracts between backend services and Flutter mobile clients drastically reduce release friction",
+    "Before/after photo inspection protocols build high trust and resolve service disputes objectively"
+  ],
+  "futureImprovements": [
+    "Automated AI damage detection on uploaded vehicle inspection photos",
+    "Dynamic route optimization and clustering for field Glitter technicians",
+    "Real-time WebSocket telemetry for technician proximity tracking"
+  ],
+  "github": "https://github.com/Chipser-Paul",
+  "liveDemo": "https://glitgo.com",
+  "googlePlay": "https://play.google.com/store/apps/details?id=com.glitgo.app",
+  "images": [],
+  "lastUpdated": "2026-10-18T22:00:00+01:00"
+}

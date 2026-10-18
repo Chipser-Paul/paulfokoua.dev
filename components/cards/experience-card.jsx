@@ -1,7 +1,8 @@
 import Link from 'next/link'
+import { ExternalLink } from 'lucide-react'
 
 export function ExperienceCard({ experience }) {
-  const { company, position, startDate, endDate, description, technologies } = experience
+  const { company, companyUrl, position, startDate, endDate, description, technologies } = experience
 
   const formatDate = (dateStr) => {
     if (!dateStr) return 'Present'
@@ -13,7 +14,21 @@ export function ExperienceCard({ experience }) {
   return (
     <article className="flex flex-col gap-2 rounded-lg border border-border bg-background p-6 transition-shadow hover:shadow-md">
       <div className="flex flex-col gap-1">
-        <h3 className="text-base font-semibold text-text">{company}</h3>
+        <h3 className="text-base font-semibold text-text">
+          {companyUrl ? (
+            <a
+              href={companyUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 hover:text-primary transition-colors"
+            >
+              {company}
+              <ExternalLink className="h-3.5 w-3.5 text-primary" />
+            </a>
+          ) : (
+            company
+          )}
+        </h3>
         <p className="text-sm text-primary">{position}</p>
         <p className="text-xs text-text-secondary">{dateRange}</p>
       </div>

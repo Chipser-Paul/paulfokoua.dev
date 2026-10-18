@@ -42,7 +42,7 @@ export default function Resume() {
                 {profile.name}
               </h1>
               <p className="mt-2 text-base font-medium text-primary">{profile.title}</p>
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-text-secondary">{profile.bio}</p>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-text-secondary">{profile.shortSummary || profile.bio}</p>
               <div className="mt-5 flex flex-wrap gap-2 text-xs text-text-secondary">
                 <span className="inline-flex items-center gap-1 rounded-md bg-surface px-2.5 py-1.5 print:bg-transparent print:px-0">
                   <MapPin className="h-3.5 w-3.5 print:hidden" />
