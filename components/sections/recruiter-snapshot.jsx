@@ -2,44 +2,34 @@ import Link from 'next/link'
 import { ArrowRight, BriefcaseBusiness, Code2, Globe2, MapPin } from 'lucide-react'
 import { site } from '@/lib/constants/site'
 import { loadProfile } from '@/lib/loaders/profile'
-import { getPublishedProjects } from '@/lib/loaders/projects'
-
-function formatAvailability(dateStr) {
-  if (!dateStr) return 'Open to opportunities'
-  const date = new Date(dateStr)
-  if (Number.isNaN(date.getTime())) return 'Open to opportunities'
-  return `Available from ${date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}`
-}
 
 export function RecruiterSnapshot() {
   const profile = loadProfile()
-  const projects = getPublishedProjects()
-  const liveProjects = projects.filter((project) => project.status === 'deployed' && project.liveDemo)
 
   const snapshot = [
     {
       icon: BriefcaseBusiness,
       label: 'Target roles',
       value: profile.availability.preferredRoles.join(' / '),
-      detail: formatAvailability(profile.availability.availableFrom),
+      detail: profile.availability.status || 'Available immediately',
     },
     {
       icon: Globe2,
       label: 'Shipped proof',
-      value: `${liveProjects.length} live projects`,
-      detail: 'Client work, AI platform, job board, and full-stack apps',
+      value: '4 live projects',
+      detail: 'GlitGo platform, Candy Beauty, TalentOS, and Cameroon Tech Jobs',
     },
     {
       icon: Code2,
       label: 'Core stack',
       value: 'TypeScript, Python, PostgreSQL',
-      detail: 'React, Next.js, Django, Express, Prisma, Drizzle, Docker',
+      detail: 'React 19, Next.js, FastAPI, Node.js, Express, Django, Docker',
     },
     {
       icon: MapPin,
       label: 'Location',
       value: profile.location,
-      detail: 'Professional English and French',
+      detail: 'Professional English and French (Remote / Worldwide)',
     },
   ]
 

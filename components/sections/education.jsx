@@ -32,6 +32,7 @@ export function Education() {
                   {item.startYear}
                   {item.endYear ? ` - ${item.endYear}` : ''}
                   {item.status && ` - ${item.status}`}
+                  {item.gpa && ` • GPA: ${item.gpa}`}
                 </p>
               </div>
 

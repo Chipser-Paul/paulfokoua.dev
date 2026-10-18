@@ -10,9 +10,9 @@ export function AboutHero() {
 
   const signals = [
     { icon: BriefcaseBusiness, label: 'Direction', value: profile.availability.preferredRoles.join(' / ') },
-    { icon: Globe2, label: 'Shipped proof', value: `${liveProjects.length} live deployments` },
-    { icon: Code2, label: 'Core stack', value: 'TypeScript, Python, PostgreSQL' },
-    { icon: MapPin, label: 'Base', value: profile.location },
+    { icon: Globe2, label: 'Shipped proof', value: '4 live deployments' },
+    { icon: Code2, label: 'Core stack', value: 'TypeScript, Python, PostgreSQL, Node.js' },
+    { icon: MapPin, label: 'Base', value: `${profile.location} (Remote)` },
   ]
 
   return (

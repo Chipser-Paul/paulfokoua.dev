@@ -4,55 +4,74 @@
     {
       "id": "exp-001",
       "order": 1,
+      "company": "GlitGo",
+      "position": "Backend Developer (Freelance)",
+      "location": "Laurel, MD, USA (Remote)",
+      "startDate": "2025-02-01",
+      "endDate": "2026-04-30",
+      "current": false,
+      "employmentType": "Freelance / Remote",
+      "description": "Developed and integrated backend APIs, authentication workflows, and web/mobile features for GlitGo (glitgo.com), a deployed on-demand vehicle cleaning and photo-inspection platform operating in the Washington, DC Metro Area and Paris.",
+      "responsibilities": [
+        "Developed and integrated Node.js and Express.js backend APIs supporting user accounts, on-demand service bookings, real-time job tracking, photo-inspection reporting, and notifications for a deployed vehicle services platform.",
+        "Modeled and managed application data across MongoDB and Firebase, and implemented OAuth authentication flows.",
+        "Built web dashboard functionality using Next.js and React for managing bookings, provider (\"Glitter\") schedules, and operational workflows.",
+        "Contributed to cross-platform Flutter mobile features (iOS and Android), reviewed code, fixed production bugs, and supported post-launch maintenance."
+      ],
+      "technologies": ["Node.js", "Express.js", "MongoDB", "Firebase", "OAuth", "Next.js", "React", "Flutter", "Git", "GitHub", "Docker"]
+    },
+    {
+      "id": "exp-002",
+      "order": 2,
       "company": "Independent Product Engineering",
       "position": "Backend & Full-Stack Software Engineer",
       "location": "Douala, Cameroon",
       "startDate": "2023-01-01",
       "endDate": null,
-      "current": true,
+      "current": false,
       "employmentType": "Independent",
-      "description": "Independent software engineering focused on backend APIs, full-stack products, AI-assisted workflows, databases, testing, and deployment.",
+      "description": "Parallel engineering track covering TalentOS, CHIP AI, Cameroon Tech Jobs, and the Algorithmic Trading & Signal System, with emphasis on backend APIs, full-stack products, AI-assisted workflows, databases, testing, and deployment.",
       "responsibilities": [
-        "Built and deployed production-style full-stack applications using TypeScript, React, Next.js, Python, Django, PostgreSQL, and Docker",
-        "Delivered portfolio-grade systems with authentication, role-based access, API contracts, CI checks, and deployment documentation",
-        "Developed AI-assisted product workflows including candidate evaluation, RAG knowledge retrieval, structured outputs, and tested API behavior"
+        "Engineered and deployed independent systems including TalentOS (AI recruitment platform), CHIP AI (personal AI engineering assistant), Cameroon Tech Jobs (Django job board), and the Algorithmic Trading & Signal System.",
+        "Built full-stack and backend systems using TypeScript, React 19, Next.js, Python, FastAPI, Django, PostgreSQL, SQLite, and Docker.",
+        "Developed AI routing, RAG retrieval workflows, typed OpenAPI contracts, automated testing suites, and production CI/CD pipelines."
       ],
-      "technologies": ["TypeScript", "React", "Next.js", "Python", "Django", "PostgreSQL", "Docker", "OpenAI API"]
+      "technologies": ["TypeScript", "React", "Next.js", "Python", "FastAPI", "Django", "PostgreSQL", "SQLite", "Docker", "OpenAI API", "Gemini API"]
     },
     {
-      "id": "exp-002",
-      "order": 2,
+      "id": "exp-003",
+      "order": 3,
       "company": "Candy Beauty",
-      "position": "Full-Stack Developer - Paid Client Project",
+      "position": "Full-Stack Developer (Paid Client Project)",
       "location": "Remote",
       "startDate": "2024-03-01",
       "endDate": "2024-04-30",
       "current": false,
       "employmentType": "Client Project",
-      "description": "Delivered a Cameroon-focused beauty e-commerce platform with a polished storefront, authenticated accounts, protected admin dashboard, FCFA pricing, and Vercel production deployment.",
+      "description": "Delivered a full-stack e-commerce storefront with user authentication, protected admin dashboard, product CRUD management, cart, Stripe checkout, FCFA pricing, image uploads, and SEO.",
       "responsibilities": [
-        "Owned end-to-end delivery of the storefront, product catalog, customer accounts, and admin dashboard",
-        "Implemented cart and checkout flows, product CRUD, image upload, order management, SEO metadata, and responsive UI",
-        "Configured Prisma, PostgreSQL on Neon, NextAuth authentication, Stripe test checkout, seed data, and Vercel deployment"
+        "Delivered a full-stack e-commerce storefront with user authentication, protected admin dashboard, product CRUD management, cart, Stripe checkout, FCFA pricing, image uploads, and SEO.",
+        "Implemented cart and checkout flows, product CRUD, image upload, order management, SEO metadata, and responsive UI.",
+        "Configured Prisma, PostgreSQL on Neon, NextAuth.js authentication, Stripe test checkout, seed data, and Vercel deployment."
       ],
       "technologies": ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "NextAuth.js", "Stripe", "Tailwind CSS", "Vercel"]
     },
     {
-      "id": "exp-003",
-      "order": 3,
-      "company": "VIM Solution",
-      "position": "Software Engineering Intern",
-      "location": "Cameroon",
-      "startDate": "2022-01-01",
-      "endDate": "2023-12-31",
+      "id": "exp-004",
+      "order": 4,
+      "company": "VIM Solutions",
+      "position": "Web Development Intern",
+      "location": "Douala, Cameroon",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
       "current": false,
       "employmentType": "Internship",
-      "description": "Software engineering internship focused on database-backed web functionality using PHP, JavaScript, AJAX, and MySQL.",
+      "description": "Web development internship focused on designing and implementing database-backed web applications using PHP, JavaScript, and MySQL.",
       "responsibilities": [
-        "Developed and maintained web application functionality using PHP, JavaScript, AJAX, and MySQL",
-        "Assisted with debugging, database queries, frontend/backend integration, and validation of application workflows"
+        "Designed and implemented an online currency converter web application using PHP, JavaScript, and MySQL.",
+        "Assisted with debugging, database queries, frontend/backend integration, and validation of application workflows."
       ],
-      "technologies": ["PHP", "JavaScript", "MySQL", "AJAX"]
+      "technologies": ["PHP", "JavaScript", "MySQL"]
     }
   ]
 }

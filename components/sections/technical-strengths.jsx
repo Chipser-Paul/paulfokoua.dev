@@ -3,11 +3,11 @@ import { getSkillCategories } from '@/lib/loaders/skills'
 
 const categoryMeta = {
   languages: { title: 'Languages', icon: Braces },
-  frontend: { title: 'Frontend', icon: Layers3 },
-  backend: { title: 'Backend', icon: Server },
-  data: { title: 'Data', icon: Database },
-  quality: { title: 'Quality and delivery', icon: ShieldCheck },
-  ai: { title: 'AI products', icon: Bot },
+  frontend: { title: 'Frontend & Mobile', icon: Layers3 },
+  backend: { title: 'Backend & APIs', icon: Server },
+  data: { title: 'Databases & ORMs', icon: Database },
+  quality: { title: 'Quality & DevOps', icon: ShieldCheck },
+  ai: { title: 'AI Engineering', icon: Bot },
 }
 
 function label(category) {

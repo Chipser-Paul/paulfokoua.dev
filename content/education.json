@@ -4,30 +4,33 @@
     {
       "id": "edu-001",
       "order": 1,
-      "institution": "IUGET, affiliated with University of Bamenda",
+      "institution": "IUGET Bonamoussadi (University of Bamenda affiliate), Douala, Cameroon",
       "degree": "B.Tech",
       "field": "Software Engineering",
-      "startYear": 2023,
+      "startYear": 2025,
       "endYear": 2026,
-      "status": "Programme completed; certificate pending",
-      "gpa": null,
+      "status": "Completed (2025 – 2026)",
+      "gpa": "2.92/4.00",
       "achievements": [
-        "Software engineering programme completed; certificate pending"
+        "Completed with GPA: 2.92/4.00",
+        "B.Tech Capstone: Algorithmic Trading & Signal System on XAUUSDm"
       ],
-      "description": "Bachelor of Technology programme focused on software engineering, backend development, databases, architecture, and systems design."
+      "description": "Bachelor of Technology programme in Software Engineering focused on advanced backend development, distributed systems, database architecture, and algorithmic design."
     },
     {
       "id": "edu-002",
       "order": 2,
-      "institution": "IUGET",
+      "institution": "IUGET, Douala, Cameroon",
       "degree": "HND",
       "field": "Software Engineering",
-      "startYear": 2021,
-      "endYear": 2023,
-      "status": "Completed",
+      "startYear": 2023,
+      "endYear": 2025,
+      "status": "Completed (2023 – 2025)",
       "gpa": null,
-      "achievements": [],
-      "description": "Higher National Diploma in Software Engineering with focus on programming fundamentals, database systems, and web technologies."
+      "achievements": [
+        "Higher National Diploma in Software Engineering completed (2023 – 2025)"
+      ],
+      "description": "Higher National Diploma in Software Engineering with focus on core programming fundamentals, relational databases, web development, and algorithms."
     }
   ]
 }

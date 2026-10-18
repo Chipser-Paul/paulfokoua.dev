@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "chip-ai",
+  "slug": "chip-ai",
+  "title": "CHIP AI",
+  "status": "active",
+  "type": "AI engineering assistant",
+  "featured": true,
+  "featuredOrder": 3,
+  "published": true,
+  "shortDescription": "A personal AI engineering assistant built with Python, FastAPI, SQLite, React, TypeScript, Vite, and Tailwind CSS to manage projects, integrate with VS Code, run test suites, and execute approved engineering tasks remotely from an Android phone.",
+  "longDescription": "CHIP AI is an autonomous personal AI engineering assistant and desktop agent platform designed to streamline daily engineering workflows. Built with a FastAPI backend and a React/TypeScript/Tailwind CSS web dashboard, it integrates directly with the local development environment, manages workspace projects, runs automated test suites, interacts with VS Code, and safely executes approved engineering tasks remotely from an Android phone using secure bridge protocols and explicit human confirmation gates.",
+  "problem": "Software engineers frequently need to monitor long-running builds, trigger test suites, inspect repository status, and execute approved fixes while away from their primary workstation without compromising security or tool safety.",
+  "solution": "Built a modular AI assistant combining local agent execution loops, multi-provider LLM routing, SQLite persistence, and an approval-gated remote execution pipeline accessible from an Android mobile device.",
+  "architecture": "FastAPI Python backend providing REST and WebSocket endpoints for agent execution, tool calling, and mobile bridge communication. SQLite with explicit schema migrations persists conversations, memory, and audit trails. The frontend is a modern SPA built with React, TypeScript, Vite, Tailwind CSS, TanStack Query, and React Router.",
+  "client": null,
+  "team": false,
+  "teamSize": null,
+  "startDate": "2025-09-01",
+  "endDate": null,
+  "techStack": [
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "TanStack Query",
+    "React Router",
+    "Docker"
+  ],
+  "features": [
+    "Personal AI engineering assistant with local tool calling and agent loops",
+    "Remote engineering task execution and monitoring from Android mobile",
+    "FastAPI backend with structured endpoints for project management and test runner automation",
+    "React, TypeScript, and Tailwind CSS web dashboard with dark-first desktop shell",
+    "Persistent memory, conversations, and audit logs stored in SQLite",
+    "Explicit human-in-the-loop approval gates for system-altering actions",
+    "Multi-provider LLM routing and fallback architecture"
+  ],
+  "challenges": [
+    "Designing a secure remote execution bridge between an Android phone and the desktop agent without exposing sensitive system permissions",
+    "Ensuring deterministic and reversible tool execution with explicit human confirmation gates",
+    "Maintaining low-latency communication and state synchronization between the Python service and React dashboard"
+  ],
+  "lessonsLearned": [
+    "Human-in-the-loop approval gates are essential when building autonomous agents that manipulate local files and processes",
+    "Decoupling AI routing logic from provider SDKs enables seamless failover and resilience",
+    "A clean API contract between the mobile bridge and desktop backend ensures reliable remote task dispatching"
+  ],
+  "futureImprovements": [
+    "Expanded voice command processing with real-time streaming audio",
+    "Direct native Android companion app with push notification approvals",
+    "Deeper IDE extension integrations for real-time diff preview"
+  ],
+  "github": "https://github.com/Chipser-Paul/chip-ai",
+  "liveDemo": null,
+  "images": [],
+  "lastUpdated": "2026-10-18T22:00:00+01:00"
+}

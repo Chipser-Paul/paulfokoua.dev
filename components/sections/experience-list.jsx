@@ -4,7 +4,7 @@ import { loadExperience } from '@/lib/loaders/experience'
 
 export function ExperienceList() {
   const experiences = loadExperience()
-  const current = experiences.find((exp) => exp.current)
+  const current = experiences.find((exp) => exp.current) || experiences[0]
 
   const formatDate = (dateStr) => {
     if (!dateStr) return 'Present'
@@ -27,7 +27,9 @@ export function ExperienceList() {
         {current && (
           <div className="rounded-lg border border-border bg-surface/50 p-6 shadow-sm">
             <BriefcaseBusiness className="mb-4 h-5 w-5 text-primary" />
-            <p className="text-xs font-semibold uppercase tracking-wider text-text-secondary">Current focus</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-text-secondary">
+              {current.current ? 'Current focus' : 'Most recent engineering role'}
+            </p>
             <h2 className="mt-2 text-lg font-semibold text-text">{current.position}</h2>
             <p className="mt-1 text-sm text-primary">{current.company}</p>
             <p className="mt-3 text-sm leading-relaxed text-text-secondary">{current.description}</p>

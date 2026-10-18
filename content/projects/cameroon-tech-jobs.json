@@ -16,8 +16,8 @@
   "client": null,
   "team": false,
   "teamSize": null,
-  "startDate": "2022-06-01",
-  "endDate": "2023-12-31",
+  "startDate": "2023-06-01",
+  "endDate": "2024-01-31",
   "techStack": [
     "Python",
     "Django 5",

@@ -5,8 +5,8 @@
       "id": "evt-001",
       "order": 1,
       "date": "2026-08-22",
-      "title": "Updated portfolio with Candy Beauty and CV positioning",
-      "description": "Refined the portfolio around backend and full-stack engineering, added Candy Beauty as a client e-commerce project, and refreshed project content from the latest CV.",
+      "title": "Updated portfolio with GlitGo, Candy Beauty, and verified CV",
+      "description": "Refined the portfolio around backend and full-stack engineering, added GlitGo and Candy Beauty, and synchronized dates with the verified CV.",
       "category": "project",
       "sourceType": "profile",
       "sourceId": "profile"
@@ -26,7 +26,7 @@
       "order": 3,
       "date": "2026-07-01",
       "title": "Built TalentOS AI recruitment platform",
-      "description": "Created a full-stack AI recruitment platform with typed APIs, RAG workflows, Docker, CI, and tested backend behavior.",
+      "description": "Created a full-stack AI recruitment platform with typed APIs, RAG workflows, Docker, CI, and 25 passing tests.",
       "category": "project",
       "sourceType": "project",
       "sourceId": "talentos"
@@ -34,52 +34,72 @@
     {
       "id": "evt-004",
       "order": 4,
-      "date": "2024-04-30",
-      "title": "Delivered Candy Beauty e-commerce platform",
-      "description": "Completed a paid full-stack beauty e-commerce project with authentication, admin dashboard, Stripe test checkout, FCFA pricing, and Vercel deployment.",
-      "category": "career",
-      "sourceType": "experience",
-      "sourceId": "exp-002"
-    },
-    {
-      "id": "evt-005",
-      "order": 5,
-      "date": "2023-01-01",
-      "title": "Started independent product engineering",
-      "description": "Began building independent backend and full-stack products with strong emphasis on APIs, databases, deployment, and practical engineering quality.",
-      "category": "career",
-      "sourceType": "experience",
-      "sourceId": "exp-001"
-    },
-    {
-      "id": "evt-006",
-      "order": 6,
-      "date": "2022-01-01",
-      "title": "Joined VIM Solution as Software Engineering Intern",
-      "description": "Worked on database-backed web functionality using PHP, JavaScript, AJAX, and MySQL.",
-      "category": "career",
-      "sourceType": "experience",
-      "sourceId": "exp-003"
-    },
-    {
-      "id": "evt-007",
-      "order": 7,
-      "date": "2023-09-01",
-      "title": "Started B.Tech in Software Engineering",
-      "description": "Began Bachelor of Technology in Software Engineering at IUGET, affiliated with University of Bamenda.",
+      "date": "2026-06-30",
+      "title": "Completed B.Tech in Software Engineering",
+      "description": "Graduated with Bachelor of Technology in Software Engineering from IUGET Bonamoussadi (University of Bamenda affiliate) with GPA 2.92/4.00.",
       "category": "education",
       "sourceType": "education",
       "sourceId": "edu-001"
     },
     {
-      "id": "evt-008",
-      "order": 8,
-      "date": "2023-07-01",
+      "id": "evt-005",
+      "order": 5,
+      "date": "2025-09-01",
+      "title": "Developed CHIP AI personal engineering assistant",
+      "description": "Engineered CHIP AI desktop assistant and Android remote bridge with Python, FastAPI, SQLite, React 19, TypeScript, and Tailwind CSS.",
+      "category": "project",
+      "sourceType": "project",
+      "sourceId": "chip-ai"
+    },
+    {
+      "id": "evt-006",
+      "order": 6,
+      "date": "2025-07-01",
       "title": "Completed HND in Software Engineering",
-      "description": "Completed Higher National Diploma in Software Engineering at IUGET.",
+      "description": "Completed Higher National Diploma in Software Engineering at IUGET, Douala, Cameroon (2023 – 2025).",
       "category": "education",
       "sourceType": "education",
       "sourceId": "edu-002"
+    },
+    {
+      "id": "evt-007",
+      "order": 7,
+      "date": "2025-02-01",
+      "title": "Joined GlitGo as Backend Developer (Freelance)",
+      "description": "Developed backend APIs, MongoDB/Firebase data modeling, OAuth, and web/mobile features for on-demand vehicle service platform.",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-001"
+    },
+    {
+      "id": "evt-008",
+      "order": 8,
+      "date": "2024-04-30",
+      "title": "Delivered Candy Beauty e-commerce platform",
+      "description": "Completed a paid full-stack beauty e-commerce project with authentication, admin dashboard, Stripe test checkout, FCFA pricing, and Vercel deployment.",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-003"
+    },
+    {
+      "id": "evt-009",
+      "order": 9,
+      "date": "2023-10-01",
+      "title": "Joined VIM Solutions as Web Development Intern",
+      "description": "Designed and implemented an online currency converter web application using PHP, JavaScript, and MySQL in Douala, Cameroon (Oct 2023 – Apr 2024).",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-004"
+    },
+    {
+      "id": "evt-010",
+      "order": 10,
+      "date": "2023-01-01",
+      "title": "Started independent product engineering",
+      "description": "Began building independent backend and full-stack products with strong emphasis on APIs, databases, deployment, and practical engineering quality.",
+      "category": "career",
+      "sourceType": "experience",
+      "sourceId": "exp-002"
     }
   ]
 }

@@ -10,10 +10,11 @@ import { cn } from '@/lib/utils/cn'
 
 const HONEYPOT_NAME = 'website'
 
-function formatAvailability(dateStr) {
-  if (!dateStr) return 'Open to opportunities'
+function formatAvailability(dateStr, profile) {
+  if (profile?.availability?.status) return profile.availability.status
+  if (!dateStr || dateStr === 'immediately') return 'Available immediately'
   const date = new Date(dateStr)
-  if (Number.isNaN(date.getTime())) return 'Open to opportunities'
+  if (Number.isNaN(date.getTime())) return 'Available immediately'
   return `Available from ${date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}`
 }
 
@@ -50,7 +51,7 @@ function ContactHero({ profile }) {
         Let&apos;s talk about the product, the stack, and where I can help.
       </h1>
       <p className="mt-4 max-w-2xl text-base leading-relaxed text-text-secondary md:text-lg">
-        I am open to backend, full-stack, and software engineering opportunities, internships, collaborations, and practical product work where reliability and shipped execution matter.
+        {profile.availability.details || 'Available immediately for Full-Time, Part-Time, Contract, and Paid Internship remote roles across Worldwide / EMEA / Africa / UTC+1.'}
       </p>
       <div className="mt-6 flex flex-wrap gap-2">
         {profile.availability.preferredRoles.map((role) => (
@@ -68,12 +69,12 @@ function ContactSidebar({ profile }) {
     {
       icon: BriefcaseBusiness,
       label: 'Availability',
-      value: formatAvailability(profile.availability.availableFrom),
+      value: profile.availability.status || formatAvailability(profile.availability.availableFrom, profile),
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: profile.location,
+      value: `${profile.location} (Remote: Worldwide / EMEA / Africa / UTC+1)`,
     },
     {
       icon: Clock3,

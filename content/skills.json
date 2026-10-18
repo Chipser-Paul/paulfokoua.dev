@@ -8,37 +8,58 @@
     { "name": "SQL", "level": "Advanced", "years": 3, "category": "languages" }
   ],
   "frontend": [
-    { "name": "React", "level": "Advanced", "years": 3, "category": "frontend" },
-    { "name": "Next.js", "level": "Advanced", "years": 2, "category": "frontend" },
-    { "name": "Vite", "level": "Intermediate", "years": 1, "category": "frontend" },
+    { "name": "React (React 19)", "level": "Advanced", "years": 3, "category": "frontend" },
+    { "name": "Next.js (Next.js 14/15)", "level": "Advanced", "years": 2, "category": "frontend" },
+    { "name": "Vite", "level": "Intermediate", "years": 2, "category": "frontend" },
     { "name": "Tailwind CSS", "level": "Advanced", "years": 2, "category": "frontend" },
-    { "name": "Zustand", "level": "Intermediate", "years": 1, "category": "frontend" }
+    { "name": "TanStack Query", "level": "Intermediate", "years": 2, "category": "frontend" },
+    { "name": "React Router", "level": "Intermediate", "years": 2, "category": "frontend" },
+    { "name": "Zustand", "level": "Intermediate", "years": 2, "category": "frontend" },
+    { "name": "Flutter", "level": "Intermediate", "years": 1, "category": "frontend" }
   ],
   "backend": [
-    { "name": "Django", "level": "Advanced", "years": 3, "category": "backend" },
-    { "name": "Express", "level": "Intermediate", "years": 2, "category": "backend" },
+    { "name": "FastAPI", "level": "Advanced", "years": 2, "category": "backend" },
+    { "name": "Node.js", "level": "Advanced", "years": 2, "category": "backend" },
+    { "name": "Express.js (Express 5)", "level": "Advanced", "years": 2, "category": "backend" },
+    { "name": "Django (Django 5)", "level": "Advanced", "years": 3, "category": "backend" },
     { "name": "Laravel", "level": "Intermediate", "years": 2, "category": "backend" },
     { "name": "REST APIs", "level": "Advanced", "years": 3, "category": "backend" },
-    { "name": "OpenAPI", "level": "Intermediate", "years": 1, "category": "backend" }
+    { "name": "OpenAPI", "level": "Intermediate", "years": 2, "category": "backend" },
+    { "name": "OAuth", "level": "Intermediate", "years": 2, "category": "backend" },
+    { "name": "Clerk", "level": "Intermediate", "years": 1, "category": "backend" },
+    { "name": "NextAuth.js", "level": "Intermediate", "years": 2, "category": "backend" }
   ],
   "data": [
     { "name": "PostgreSQL", "level": "Advanced", "years": 3, "category": "data" },
-    { "name": "Prisma", "level": "Advanced", "years": 2, "category": "data" },
-    { "name": "Drizzle", "level": "Intermediate", "years": 1, "category": "data" },
+    { "name": "MongoDB", "level": "Intermediate", "years": 2, "category": "data" },
+    { "name": "MySQL", "level": "Advanced", "years": 2, "category": "data" },
+    { "name": "SQLite", "level": "Advanced", "years": 2, "category": "data" },
+    { "name": "Firebase", "level": "Intermediate", "years": 2, "category": "data" },
     { "name": "Redis", "level": "Intermediate", "years": 2, "category": "data" },
-    { "name": "Neon", "level": "Intermediate", "years": 1, "category": "data" }
+    { "name": "Prisma", "level": "Advanced", "years": 2, "category": "data" },
+    { "name": "Drizzle ORM", "level": "Intermediate", "years": 2, "category": "data" },
+    { "name": "Neon", "level": "Intermediate", "years": 2, "category": "data" }
   ],
   "quality": [
-    { "name": "Vitest", "level": "Intermediate", "years": 1, "category": "quality" },
-    { "name": "Supertest", "level": "Intermediate", "years": 1, "category": "quality" },
-    { "name": "GitHub Actions", "level": "Intermediate", "years": 1, "category": "quality" },
+    { "name": "Git", "level": "Advanced", "years": 4, "category": "quality" },
+    { "name": "GitHub", "level": "Advanced", "years": 4, "category": "quality" },
+    { "name": "GitHub Actions", "level": "Intermediate", "years": 2, "category": "quality" },
+    { "name": "CI/CD", "level": "Intermediate", "years": 2, "category": "quality" },
+    { "name": "Vitest", "level": "Intermediate", "years": 2, "category": "quality" },
+    { "name": "Supertest", "level": "Intermediate", "years": 2, "category": "quality" },
     { "name": "Docker", "level": "Intermediate", "years": 2, "category": "quality" },
-    { "name": "Vercel", "level": "Advanced", "years": 2, "category": "quality" }
+    { "name": "Docker Compose", "level": "Intermediate", "years": 2, "category": "quality" },
+    { "name": "Vercel", "level": "Advanced", "years": 2, "category": "quality" },
+    { "name": "Render", "level": "Intermediate", "years": 2, "category": "quality" }
   ],
   "ai": [
-    { "name": "OpenAI API", "level": "Intermediate", "years": 1, "category": "ai" },
-    { "name": "RAG", "level": "Intermediate", "years": 1, "category": "ai" },
-    { "name": "Structured outputs", "level": "Intermediate", "years": 1, "category": "ai" }
+    { "name": "OpenAI API", "level": "Intermediate", "years": 2, "category": "ai" },
+    { "name": "Gemini API", "level": "Intermediate", "years": 2, "category": "ai" },
+    { "name": "LLM Routing", "level": "Intermediate", "years": 1, "category": "ai" },
+    { "name": "RAG", "level": "Intermediate", "years": 2, "category": "ai" },
+    { "name": "Structured Outputs", "level": "Intermediate", "years": 2, "category": "ai" },
+    { "name": "Tool Calling", "level": "Intermediate", "years": 1, "category": "ai" },
+    { "name": "Agent Loops", "level": "Intermediate", "years": 1, "category": "ai" }
   ],
   "currentlyLearning": []
 }

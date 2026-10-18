@@ -6,7 +6,7 @@
   "status": "academic",
   "type": "academic",
   "featured": true,
-  "featuredOrder": 3,
+  "featuredOrder": 5,
   "published": true,
   "shortDescription": "A Django-based hospital management information system built as academic coursework. Demonstrates role-based access, appointment scheduling, pharmacy inventory, and billing workflows.",
   "longDescription": "A full-stack hospital management information system developed as academic coursework to replace paper-based record keeping with digital workflows. The platform covers patient registration, appointment scheduling, electronic health records, pharmacy inventory, billing, and role-based staff access. Built with Django and PostgreSQL, it emphasizes data validation, audit trails, and usability for non-technical medical staff.",

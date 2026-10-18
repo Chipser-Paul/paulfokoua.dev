@@ -10,16 +10,21 @@
   "email": "chipseremmanuel@gmail.com",
   "phone": "+237 675 952 537",
   "photo": "/images/profile.jpg",
-  "bio": "Software engineer with 3+ years of hands-on development across industry internship, paid client work, and independent product engineering. I build full-stack and backend systems with TypeScript, React, Next.js, Python, Django, PostgreSQL, REST APIs, automated testing, CI/CD, and Docker.",
+  "bio": "Software engineer with hands-on development across production freelance engineering at GlitGo, paid client work at Candy Beauty, and independent systems delivery. I build full-stack and backend systems with TypeScript, React, Next.js, Python, FastAPI, Django, Node.js, Express, PostgreSQL, REST APIs, automated testing, CI/CD, and Docker.",
   "mission": "To build reliable, maintainable software products that solve real problems, ship with strong engineering fundamentals, and keep improving through practical project work.",
   "availability": {
     "openToWork": true,
-    "availableFrom": "2026-09-01",
-    "preferredRoles": ["Backend Engineer", "Full-Stack Engineer", "Software Engineer"]
+    "status": "Available immediately",
+    "availableFrom": null,
+    "workTypes": ["Full-Time", "Part-Time", "Contract", "Paid Internship"],
+    "workplaceTypes": ["Remote"],
+    "regions": ["Worldwide", "EMEA", "Africa", "UTC+1"],
+    "preferredRoles": ["Backend Engineer", "Full-Stack Engineer", "Software Engineer"],
+    "details": "Available immediately (open to Full-Time, Part-Time, Contract, and Paid Internship remote roles across Worldwide / EMEA / Africa / UTC+1)"
   },
   "currentFocus": [
     "Backend APIs, data modeling, and service architecture",
-    "Full-stack product engineering with React, Next.js, and TypeScript",
+    "Full-stack product engineering with React 19, Next.js, and TypeScript",
     "AI-assisted workflows, RAG, automated testing, and production deployment"
   ],
   "languages": [
@@ -29,11 +34,11 @@
   "interests": [
     "Backend engineering",
     "Full-stack development",
-    "AI-assisted products",
+    "AI engineering",
     "APIs and automation",
     "Testing and CI/CD",
     "Databases"
   ],
-  "lastUpdated": "2026-08-22T23:30:00+01:00",
-  "version": "1.1.0"
+  "lastUpdated": "2026-10-18T22:00:00+01:00",
+  "version": "1.2.0"
 }

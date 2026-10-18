@@ -4,15 +4,15 @@
   "slug": "trading-bot",
   "title": "Algorithmic Trading & Signal System",
   "status": "experimental",
-  "type": "tool",
+  "type": "trading research system",
   "featured": true,
-  "featuredOrder": 3,
+  "featuredOrder": 4,
   "published": true,
-  "shortDescription": "A Python trading and signal research system with MetaTrader 5 integration, PostgreSQL storage, Dockerized services, market-structure analysis, and robust error handling.",
-  "longDescription": "A Python-based algorithmic trading and signal research system built around the MetaTrader 5 platform. The project is structured as a modular pipeline for market-data processing, trade signal generation, risk management, and structured logging. It was developed as a B.Tech capstone project to investigate market-structure concepts such as fair-value gaps, liquidity analysis, and confluence scoring, with an emphasis on engineering rigor, diagnostics, and hypothesis-driven experimentation rather than live profitability.",
-  "problem": "Retail trading experiments are often difficult to debug because signal logic, execution behavior, risk controls, and logs are mixed together or hidden inside opaque tools.",
-  "solution": "Built a modular Python system that separates market-data ingestion, signal evaluation, risk management, execution coordination, and structured logging so strategy behavior can be inspected and improved systematically.",
-  "architecture": "Python application organized around a central orchestrator with separate modules for market-data processing, market-structure analysis, risk management, and structured logging. MetaTrader 5 serves as the execution and data-feed environment, while PostgreSQL persists trade records and diagnostic outputs for offline analysis.",
+  "shortDescription": "A Python algorithmic trading and signal research system engineered exclusively for XAUUSDm, featuring causal market-structure analysis (BOS/CHoCH), multi-gate confluence validation, risk controls, MetaTrader 5 integration, PostgreSQL, and Docker.",
+  "longDescription": "A Python-based algorithmic trading and signal research system built around the MetaTrader 5 platform, focused exclusively on gold (XAUUSDm). The project is structured as a modular pipeline for market-data processing, causal market-structure analysis (Break of Structure / Change of Character), multi-gate confluence validation, strict risk controls, and structured trade logging. It was developed as a B.Tech capstone project to investigate causal market structure, fair-value gaps, liquidity runs, and multi-timeframe validation with engineering rigor and diagnostic hypothesis tracking.",
+  "problem": "Retail trading systems often suffer from ungrounded discretionary logic, opaque execution behavior, poor risk management, and unverified multi-timeframe signals that are difficult to backtest and debug.",
+  "solution": "Built a modular Python research and execution system tailored exclusively for XAUUSDm that isolates data ingestion, causal market-structure analysis (BOS/CHoCH), multi-gate confluence scoring, volatility-based risk controls, and PostgreSQL trade logging.",
+  "architecture": "Python application organized around a central orchestrator with separate modules for market-data processing, market-structure analysis, risk management, and structured logging. MetaTrader 5 serves as the execution and live tick/bar ingestion environment, while PostgreSQL persists trade records and diagnostic outputs for offline analysis.",
   "client": null,
   "team": false,
   "teamSize": null,
@@ -25,12 +25,13 @@
     "Docker"
   ],
   "features": [
-    "Modular signal and market-structure analysis pipeline",
-    "Liquidity and fair-value-gap detection",
-    "Confluence scoring and session/news filtering",
-    "Volatility-adaptive stop-loss and partial-close logic",
-    "Structured trade logging and diagnostic tooling",
-    "PostgreSQL persistence for trade history and analytics"
+    "Exclusively engineered for XAUUSDm gold market dynamics",
+    "Causal market-structure analysis detecting BOS (Break of Structure) and CHoCH (Change of Character)",
+    "Multi-gate confluence validation scoring combining market structure, fair-value gaps, and session timing",
+    "Volatility-adaptive risk controls, stop-loss calculations, and partial-take-profit logic",
+    "MetaTrader 5 integration for live tick/bar ingestion and order execution",
+    "PostgreSQL persistence for trade records, signal logs, and diagnostic analysis",
+    "Dockerized environment for reproducible backtesting and execution"
   ],
   "challenges": [
     "Translating discretionary trading concepts into deterministic, testable modules",
@@ -43,7 +44,7 @@
     "Risk management and debugging infrastructure deserve as much design attention as signal generation"
   ],
   "futureImprovements": [
-    "Expanded instrument coverage and multi-timeframe analysis",
+    "Multi-timeframe confirmation pipeline expansion",
     "Automated performance reporting and hypothesis tracking",
     "Visualization dashboard for strategy diagnostics"
   ],
@@ -55,6 +56,6 @@
     "/images/projects/trading-bot/Settings.png",
     "/images/projects/trading-bot/AI Copilot.png"
   ],
-  "lastUpdated": "2026-08-22T23:30:00+01:00",
+  "lastUpdated": "2026-10-18T22:00:00+01:00",
   "capstone": true
 }

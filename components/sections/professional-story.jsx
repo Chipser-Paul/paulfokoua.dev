@@ -28,7 +28,7 @@ export function ProfessionalStory() {
                   I am a backend and full-stack software engineer focused on practical products: typed APIs, database-backed workflows, responsive interfaces, and deployment-ready systems.
                 </p>
                 <p>
-                  My work spans a paid e-commerce client project, an AI recruitment platform with RAG and tested API behavior, a Cameroon-focused jobs platform, and a Python trading research system. Across these projects, I care about clear architecture, validation, testing, documentation, and shipping software that can be evaluated by real users.
+                  My work spans production backend freelance engineering for GlitGo, a paid client e-commerce platform at Candy Beauty, an AI recruitment platform with RAG at TalentOS, a personal AI engineering assistant in CHIP AI, a Cameroon tech job board, and an algorithmic trading research system. Across these systems, I care about clean API contracts, data modeling, automated testing, security, and shipping software that delivers real value.
                 </p>
                 {profile.mission && (
                   <p className="border-l border-primary pl-4 text-text">

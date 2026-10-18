@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, CheckCircle2, Code2, Rocket, ShieldCheck } from 'lucide-react'
+import { ArrowRight, CheckCircle2, Code2, ExternalLink, Rocket, ShieldCheck } from 'lucide-react'
 import { site } from '@/lib/constants/site'
 import { loadProfile } from '@/lib/loaders/profile'
 
@@ -27,7 +27,7 @@ export function Hero() {
           </div>
 
           <p className="text-base md:text-lg text-text-secondary leading-relaxed max-w-xl">
-            TypeScript, React, Next.js, Python, Django, and PostgreSQL systems with practical product thinking, API discipline, tests, CI/CD, and deployment-ready documentation.
+            TypeScript, React, Next.js, Python, Django, FastAPI, Node.js, Express, and PostgreSQL systems with practical product thinking, API discipline, tests, CI/CD, and deployment-ready documentation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3">
@@ -82,6 +82,26 @@ export function Hero() {
               Current proof of work
             </div>
             <div className="space-y-4">
+              <div className="flex gap-3">
+                <Rocket className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                <div>
+                  <div className="flex items-center gap-2">
+                    <p className="text-sm font-medium text-text">GlitGo</p>
+                    <a
+                      href="https://glitgo.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                    >
+                      glitgo.com
+                      <ExternalLink className="h-3 w-3" />
+                    </a>
+                  </div>
+                  <p className="mt-1 text-sm leading-relaxed text-text-secondary">
+                    Backend APIs, MongoDB/Firebase data modeling, OAuth, and web/mobile features for on-demand vehicle service platform.
+                  </p>
+                </div>
+              </div>
               <div className="flex gap-3">
                 <Rocket className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>

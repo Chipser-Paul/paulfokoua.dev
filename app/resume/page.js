@@ -90,7 +90,7 @@ export default function Resume() {
                     {exp.description && <p className="mt-3 text-sm leading-relaxed text-text-secondary">{exp.description}</p>}
                     {exp.responsibilities && exp.responsibilities.length > 0 && (
                       <ul className="mt-3 space-y-2 text-sm text-text-secondary">
-                        {exp.responsibilities.slice(0, 3).map((item, idx) => (
+                        {exp.responsibilities.map((item, idx) => (
                           <li key={idx} className="leading-relaxed">- {item}</li>
                         ))}
                       </ul>
@@ -157,7 +157,7 @@ export default function Resume() {
                     </h3>
                     <p className="mt-1 text-sm font-medium text-primary">{edu.institution}</p>
                     <p className="mt-1 text-xs text-text-secondary">
-                      {edu.startYear}{edu.endYear ? ` - ${edu.endYear}` : ''}{edu.status && ` - ${edu.status}`}
+                      {edu.startYear}{edu.endYear ? ` - ${edu.endYear}` : ''}{edu.status && ` - ${edu.status}`}{edu.gpa && ` • GPA: ${edu.gpa}`}
                     </p>
                     {edu.description && <p className="mt-2 text-sm leading-relaxed text-text-secondary">{edu.description}</p>}
                   </article>

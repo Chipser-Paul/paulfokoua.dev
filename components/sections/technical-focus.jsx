@@ -8,28 +8,28 @@ const categoryMeta = {
     icon: Braces,
   },
   frontend: {
-    title: 'Frontend',
-    description: 'Responsive product interfaces with React, Next.js, and utility-first styling.',
+    title: 'Frontend & Mobile',
+    description: 'Responsive product interfaces and cross-platform apps with React 19, Next.js, Flutter, and utility-first styling.',
     icon: Layers3,
   },
   backend: {
-    title: 'Backend',
-    description: 'APIs, server-side flows, service boundaries, and role-aware application logic.',
+    title: 'Backend & APIs',
+    description: 'APIs, server-side flows, service boundaries, authentication, and role-aware application logic.',
     icon: Server,
   },
   data: {
-    title: 'Data',
-    description: 'Relational modeling, ORM workflows, migrations, and production database setup.',
+    title: 'Databases & ORMs',
+    description: 'Relational modeling, NoSQL stores, ORM workflows, migrations, and production database setup.',
     icon: Database,
   },
   quality: {
-    title: 'Quality and delivery',
+    title: 'Quality & DevOps',
     description: 'Testing, Docker, CI/CD, deployment, and release-ready documentation.',
     icon: ShieldCheck,
   },
   ai: {
-    title: 'AI products',
-    description: 'Grounded AI features, RAG workflows, structured outputs, and OpenAI integrations.',
+    title: 'AI Engineering',
+    description: 'Grounded AI features, LLM routing, RAG workflows, structured outputs, tool calling, and agent loops.',
     icon: Bot,
   },
 }
@@ -70,7 +70,7 @@ export function TechnicalFocus() {
               </div>
 
               <ul className="flex flex-wrap gap-2">
-                {items.slice(0, 6).map((skill) => (
+                {items.map((skill) => (
                   <li
                     key={skill.name}
                     className="inline-flex items-center rounded-md bg-surface px-2.5 py-1.5 text-xs font-medium text-text-secondary"
