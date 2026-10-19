@@ -4,9 +4,12 @@ import { cn } from '@/lib/utils/cn'
 import { ProjectImage } from '@/components/ui/project-image'
 
 export function ProjectCard({ project }) {
-  const { title, shortDescription, techStack, status, slug, github, liveDemo, type, capstone, images = [] } = project
-  const firstImage = images[0]
+  const { title, shortDescription, techStack, status, slug, github, liveDemo, type, capstone, images = [], thumbnail, coverImage } = project
+  const firstImage = thumbnail || coverImage || images[0]
   const isDeployed = status === 'deployed'
+  const imageAlt = slug === 'glitgo'
+    ? 'GlitGo on-demand vehicle care and inspection platform'
+    : `${title} preview`
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-border bg-background transition-all hover:border-text-secondary/20 hover:shadow-md">
@@ -18,7 +21,7 @@ export function ProjectCard({ project }) {
         >
           <ProjectImage
             src={firstImage}
-            alt={`${title} preview`}
+            alt={imageAlt}
           />
           <div className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/5" />
         </Link>

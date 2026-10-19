@@ -58,6 +58,10 @@
   "github": "https://github.com/Chipser-Paul",
   "liveDemo": "https://glitgo.com",
   "googlePlay": "https://play.google.com/store/apps/details?id=com.glitgo.app",
-  "images": [],
+  "images": [
+    "/images/projects/glitgo.png"
+  ],
+  "thumbnail": "/images/projects/glitgo.png",
+  "coverImage": "/images/projects/glitgo.png",
   "lastUpdated": "2026-10-18T22:00:00+01:00"
 }

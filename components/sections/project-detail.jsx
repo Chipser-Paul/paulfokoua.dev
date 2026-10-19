@@ -16,11 +16,15 @@ function formatRange(startDate, endDate) {
 }
 
 function getImageLabel(image) {
-  return image
+  const label = image
     .split('/')
     .pop()
     .replace('.png', '')
     .replace(/-/g, ' ')
+  if (label.toLowerCase() === 'glitgo') {
+    return 'GlitGo platform overview'
+  }
+  return label
 }
 
 function DetailList({ title, items }) {
@@ -42,7 +46,7 @@ function DetailList({ title, items }) {
 
 export function ProjectDetail({ project }) {
   const { previous, next } = getProjectNavigation(project.slug)
-  const heroImage = project.images?.[0]
+  const heroImage = project.coverImage || project.thumbnail || project.images?.[0]
   const timeline = formatRange(project.startDate, project.endDate)
   const proofPoints = project.features?.slice(0, 4) || []
 
@@ -132,7 +136,11 @@ export function ProjectDetail({ project }) {
 
         {heroImage && (
           <div className="relative aspect-video overflow-hidden rounded-lg border border-border bg-surface shadow-sm">
-            <ProjectImage src={heroImage} alt={`${project.title} main interface preview`} />
+            <ProjectImage
+              src={heroImage}
+              alt={project.slug === 'glitgo' ? 'GlitGo on-demand vehicle care and inspection platform' : `${project.title} main interface preview`}
+              priority
+            />
           </div>
         )}
       </header>
@@ -198,7 +206,10 @@ export function ProjectDetail({ project }) {
                 {project.images.map((image, idx) => (
                   <figure key={image} className="overflow-hidden rounded-lg border border-border bg-surface">
                     <div className="relative aspect-video">
-                      <ProjectImage src={image} alt={`${project.title} - ${getImageLabel(image)}`} />
+                      <ProjectImage
+                        src={image}
+                        alt={project.slug === 'glitgo' ? 'GlitGo on-demand vehicle care and inspection platform' : `${project.title} - ${getImageLabel(image)}`}
+                      />
                     </div>
                     <figcaption className="border-t border-border px-4 py-3 text-xs font-medium capitalize text-text-secondary">
                       {getImageLabel(image)}
